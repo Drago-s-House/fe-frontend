@@ -451,25 +451,32 @@ const Home = (props) => {
           </div>
         </div>
         <section className="home-donation-use">
-          <div className="home-header05">
-            <h2 id="como-ayudar" className="home-heading5">
-              ¿Cómo las empresas pueden colaborar?
-            </h2>
-            <p className="home-caption5">
-              Descubre cómo puedes marcar la diferencia y fomentar la inclusión
-              al unirte a nuestra iniciativa. A través de patrocinios,
-              contratación de servicios, participación en eventos benéficos y
-              apadrinamiento de programas, puedes contribuir activamente a la
-              integración laboral y al desarrollo personal de personas con
-              habilidades diversas. Además, al utilizar nuestro centro de
-              reclutamiento, tendrás la oportunidad de encontrar talento diverso
-              y brindar oportunidades laborales inclusivas.
-              <span
-                dangerouslySetInnerHTML={{
-                  __html: ' ',
-                }}
-              />
-            </p>
+          <div className="home-container18">
+            <div className="home-header05">
+              <h2 id="como-ayudar" className="home-heading5">
+                ¿Cómo las empresas pueden colaborar?
+              </h2>
+              <p className="home-caption5">
+                Descubre cómo puedes marcar la diferencia y fomentar la
+                inclusión al unirte a nuestra iniciativa. A través de
+                patrocinios, contratación de servicios, participación en eventos
+                benéficos y apadrinamiento de programas, puedes contribuir
+                activamente a la integración laboral y al desarrollo personal de
+                personas con habilidades diversas. Además, al utilizar nuestro
+                centro de reclutamiento, tendrás la oportunidad de encontrar
+                talento diverso y brindar oportunidades laborales inclusivas.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </p>
+            </div>
+            <img
+              src="/dise%C3%A3%C2%B1o%20sin%20t%C3%A3%C2%ADtulo%20(19)-400w.png"
+              alt="image"
+              className="home-image7"
+            />
           </div>
           <div className="home-accordion">
             <div
@@ -916,7 +923,7 @@ window.addEventListener("load", function() {
             color: rgb(34, 34, 35);
             font-size: 36px;
             font-style: normal;
-            font-family: Georgia;
+            font-family: Tahoma;
             font-weight: 700;
           }
           .home-caption {
@@ -1090,7 +1097,7 @@ window.addEventListener("load", function() {
             color: rgb(34, 34, 35);
             font-size: 36px;
             font-style: normal;
-            font-family: Georgia;
+            font-family: Tahoma;
             font-weight: 700;
             line-height: 52px;
           }
@@ -1119,8 +1126,8 @@ window.addEventListener("load", function() {
             color: rgb(34, 34, 35);
             font-size: 28px;
             font-style: normal;
-            font-family: Georgia;
-            font-weight: 500;
+            font-family: Tahoma;
+            font-weight: 700;
             line-height: 52px;
             border-color: var(--dl-color-gray-black);
             border-style: dashed;
@@ -1144,8 +1151,8 @@ window.addEventListener("load", function() {
             color: rgb(34, 34, 35);
             font-size: 28px;
             font-style: normal;
-            font-family: Georgia;
-            font-weight: 500;
+            font-family: Tahoma;
+            font-weight: 700;
             line-height: 52px;
             border-color: var(--dl-color-gray-black);
             border-style: dashed;
@@ -1235,8 +1242,8 @@ window.addEventListener("load", function() {
             color: rgb(34, 34, 35);
             font-size: 30px;
             font-style: normal;
-            font-family: Georgia;
-            font-weight: 500;
+            font-family: Tahoma;
+            font-weight: 700;
             line-height: 52px;
           }
           .home-caption2 {
@@ -1254,8 +1261,8 @@ window.addEventListener("load", function() {
             color: rgb(34, 34, 35);
             font-size: 30px;
             font-style: normal;
-            font-family: Georgia;
-            font-weight: 500;
+            font-family: Tahoma;
+            font-weight: 700;
             line-height: 52px;
           }
           .home-caption3 {
@@ -1314,7 +1321,7 @@ window.addEventListener("load", function() {
             color: rgb(34, 34, 35);
             font-size: 45px;
             font-style: normal;
-            font-family: Georgia;
+            font-family: Tahoma;
             font-weight: 700;
             line-height: 52px;
           }
@@ -1344,8 +1351,8 @@ window.addEventListener("load", function() {
             flex-direction: column;
           }
           .home-text09 {
-            font-size: 1.8rem;
-            font-family: Georgia;
+            font-size: 28px;
+            font-family: Tahoma;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .home-container03 {
@@ -1364,8 +1371,8 @@ window.addEventListener("load", function() {
             flex-direction: column;
           }
           .home-text10 {
-            font-size: 1.8rem;
-            font-family: Georgia;
+            font-size: 28px;
+            font-family: Tahoma;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .home-container04 {
@@ -1405,7 +1412,7 @@ window.addEventListener("load", function() {
           .home-text11 {
             color: var(--dl-color-gray-black);
             font-size: 25px;
-            font-family: Georgia;
+            font-family: Tahoma;
           }
           .home-container05 {
             flex: 0 0 auto;
@@ -1489,7 +1496,7 @@ window.addEventListener("load", function() {
             font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: Georgia;
+            font-family: Tahoma;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -1565,7 +1572,7 @@ window.addEventListener("load", function() {
             font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: Georgia;
+            font-family: Tahoma;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -1641,7 +1648,7 @@ window.addEventListener("load", function() {
             font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: Georgia;
+            font-family: Tahoma;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -1717,7 +1724,7 @@ window.addEventListener("load", function() {
             font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: Georgia;
+            font-family: Tahoma;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -1737,6 +1744,13 @@ window.addEventListener("load", function() {
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: flex-start;
           }
+          .home-container18 {
+            width: 557px;
+            height: auto;
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+          }
           .home-header05 {
             gap: var(--dl-space-space-unit);
             flex: 1;
@@ -1750,7 +1764,7 @@ window.addEventListener("load", function() {
             color: rgb(34, 34, 35);
             font-size: 24px;
             font-style: normal;
-            font-family: Georgia;
+            font-family: Tahoma;
             font-weight: 700;
             line-height: 52px;
           }
@@ -1758,6 +1772,12 @@ window.addEventListener("load", function() {
             color: rgb(34, 34, 35);
             font-size: 18px;
             line-height: 27px;
+          }
+          .home-image7 {
+            width: 400px;
+            align-self: center;
+            margin-top: var(--dl-space-space-oneandhalfunits);
+            object-fit: cover;
           }
           .home-accordion {
             flex: 1;
@@ -1778,7 +1798,7 @@ window.addEventListener("load", function() {
             color: rgb(34, 34, 35);
             font-size: 19px;
             font-style: normal;
-            font-family: Georgia;
+            font-family: Tahoma;
             font-weight: 700;
             padding-right: var(--dl-space-space-unit);
           }
@@ -1798,7 +1818,7 @@ window.addEventListener("load", function() {
             color: rgb(34, 34, 35);
             font-size: 19px;
             font-style: normal;
-            font-family: Georgia;
+            font-family: Tahoma;
             font-weight: 700;
             padding-right: var(--dl-space-space-unit);
           }
@@ -1818,7 +1838,7 @@ window.addEventListener("load", function() {
             color: rgb(34, 34, 35);
             font-size: 19px;
             font-style: normal;
-            font-family: Georgia;
+            font-family: Tahoma;
             font-weight: 700;
             padding-right: var(--dl-space-space-unit);
           }
@@ -1838,7 +1858,7 @@ window.addEventListener("load", function() {
             color: rgb(34, 34, 35);
             font-size: 19px;
             font-style: normal;
-            font-family: Georgia;
+            font-family: Tahoma;
             font-weight: 700;
             padding-right: var(--dl-space-space-unit);
           }
@@ -1858,7 +1878,7 @@ window.addEventListener("load", function() {
             color: rgb(34, 34, 35);
             font-size: 19px;
             font-style: normal;
-            font-family: Georgia;
+            font-family: Tahoma;
             font-weight: 700;
             padding-right: var(--dl-space-space-unit);
           }
