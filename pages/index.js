@@ -148,7 +148,9 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-image">
-              <button className="home-button1 button">Donate</button>
+              <button className="home-button1 button">
+                ¡Quiero contratar!
+              </button>
             </div>
           </div>
           <div className="home-details-container">
@@ -326,7 +328,7 @@ const Home = (props) => {
               </div>
               <div className="home-button3">
                 <button className="home-button4 button">
-                  <span className="home-text08">Take action</span>
+                  <span className="home-text08">¡Quiero trabajar!</span>
                 </button>
               </div>
             </div>
@@ -436,8 +438,19 @@ const Home = (props) => {
               ¿Cómo las empresas pueden colaborar?
             </h2>
             <p className="home-caption5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore.
+              Descubre cómo puedes marcar la diferencia y fomentar la inclusión
+              al unirte a nuestra iniciativa. A través de patrocinios,
+              contratación de servicios, participación en eventos benéficos y
+              apadrinamiento de programas, puedes contribuir activamente a la
+              integración laboral y al desarrollo personal de personas con
+              habilidades diversas. Además, al utilizar nuestro centro de
+              reclutamiento, tendrás la oportunidad de encontrar talento diverso
+              y brindar oportunidades laborales inclusivas.
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
             </p>
           </div>
           <div className="home-accordion">
@@ -447,18 +460,16 @@ const Home = (props) => {
             >
               <div className="home-header06">
                 <h3 className="home-text17">
-                  Lorem ipsum dolor sit ametna aliqua.
+                  1. Patrocina la Inclusión: Centro de Reclutamiento y Selección
                 </h3>
                 <IconContainer rootClassName="icon-container-root-class-name4"></IconContainer>
               </div>
               <div data-role="accordion-content" className="accordion-content">
                 <p className="home-text18">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.
+                  Haz la diferencia al patrocinar nuestro Centro de
+                  Reclutamiento y Selección, brindando oportunidades laborales a
+                  personas con habilidades diversas. Impulsa la inclusión y
+                  construye un equipo diverso y talentoso.
                 </p>
               </div>
             </div>
@@ -468,18 +479,17 @@ const Home = (props) => {
             >
               <div className="home-header07">
                 <h3 className="home-text19">
-                  Lorem ipsum dolor sit ametna aliqua.
+                  2. Transformación Empresarial: Servicios para Empresas
+                  Inclusivas
                 </h3>
                 <IconContainer rootClassName="icon-container-root-class-name5"></IconContainer>
               </div>
               <div data-role="accordion-content" className="accordion-content">
                 <p className="home-text20">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.
+                  Descubre los servicios que ofrecemos para transformar y
+                  desarrollar empresas inclusivas. Nuestro enfoque especializado
+                  te guiará hacia la inclusión laboral, creando un entorno de
+                  trabajo diverso, equitativo y productivo.
                 </p>
               </div>
             </div>
@@ -489,18 +499,16 @@ const Home = (props) => {
             >
               <div className="home-header08">
                 <h3 className="home-text21">
-                  Lorem ipsum dolor sit ametna aliqua.
+                  3. Uniendo Fuerzas: Eventos Benéficos para la Inclusión
                 </h3>
                 <IconContainer rootClassName="icon-container-root-class-name6"></IconContainer>
               </div>
               <div data-role="accordion-content" className="accordion-content">
                 <p className="home-text22">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.
+                  Descubre los servicios que ofrecemos para transformar y
+                  desarrollar empresas inclusivas. Nuestro enfoque especializado
+                  te guiará hacia la inclusión laboral, creando un entorno de
+                  trabajo diverso, equitativo y productivo.
                 </p>
               </div>
             </div>
@@ -510,18 +518,18 @@ const Home = (props) => {
             >
               <div className="home-header09">
                 <h3 className="home-text23">
-                  Lorem ipsum dolor sit ametna aliqua.
+                  4. Apadrina el Empoderamiento: Programa Coaching Para Más
+                  Capacitados
                 </h3>
                 <IconContainer rootClassName="icon-container-root-class-name7"></IconContainer>
               </div>
               <div data-role="accordion-content" className="accordion-content">
                 <p className="home-text24">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.
+                  Haz una contribución significativa al apadrinar nuestro
+                  programa Coaching Para Más Capacitados y a sus beneficiarios.
+                  Impulsa el empoderamiento y el desarrollo personal de personas
+                  con habilidades diversas, brindándoles las herramientas para
+                  alcanzar su máximo potencial.
                 </p>
               </div>
             </div>
@@ -531,18 +539,17 @@ const Home = (props) => {
             >
               <div className="home-header10">
                 <h3 className="home-text25">
-                  Lorem ipsum dolor sit ametna aliqua.
+                  5. Vacantes Inclusivas: Centro de Búsqueda y Contratación
                 </h3>
                 <IconContainer rootClassName="icon-container-root-class-name8"></IconContainer>
               </div>
               <div data-role="accordion-content" className="accordion-content">
                 <p className="home-text26">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur.
+                  Encuentra talento diverso y promueve la inclusión laboral al
+                  colocar tus posiciones vacantes en nuestro Centro de Búsqueda
+                  y Contratación. Descubre el potencial de personas con
+                  habilidades diversas y construye un equipo inclusivo y
+                  talentoso.
                 </p>
               </div>
             </div>
@@ -605,7 +612,6 @@ const Home = (props) => {
         <section className="home-updates"></section>
         <footer className="home-footer">
           <div className="home-top">
-            <Branding></Branding>
             <nav className="home-navigation-links">
               <Link href="/">
                 <a className="home-link19 navLink">Mission</a>
@@ -623,14 +629,28 @@ const Home = (props) => {
           </div>
           <div className="home-middle">
             <span className="home-text27">
-              +0 222.345.987 office@helpa.template
+              <span>
+                809-740-7560
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="home-text29">
+                gissell.eusebiolifetransformer@gmail.com
+              </span>
             </span>
-            <span className="home-text28">
-              Forge Co.13G Eagle Blvd.Nashville, TN 37011-5678
+            <span className="home-text30">
+              Calle Eduardo Vicioso # 82, Edif. Isabel Michell 1, apto 3,
+              Ensanche Bella Vista, Santo Domingo, Distrito Nacional, Republica
+              Dominicana.
             </span>
           </div>
           <div className="home-bottom">
-            <span className="home-copyright">© Copyright Company – 2022</span>
+            <span className="home-copyright">
+              Donado por Drago&apos;s House
+            </span>
           </div>
         </footer>
         <div>
@@ -915,7 +935,7 @@ window.addEventListener("load", function() {
             background-image: url('/amigos-divirtiendose-juntos-1400w.jpg');
           }
           .home-button1 {
-            color: #ffffff;
+            color: rgb(255, 255, 255);
             align-self: flex-end;
             margin-top: var(--dl-space-space-unit);
             padding-top: var(--dl-space-space-oneandhalfunits);
@@ -1274,7 +1294,7 @@ window.addEventListener("load", function() {
             background-color: #0075bc;
           }
           .home-text08 {
-            color: #ffffff;
+            color: rgb(255, 255, 255);
           }
           .home-features {
             width: 100%;
@@ -1671,11 +1691,11 @@ window.addEventListener("load", function() {
             display: flex;
             max-width: var(--dl-size-size-maxwidth);
             align-items: flex-start;
-            padding-top: 120px;
+            padding-top: var(--dl-space-space-threeunits);
             padding-left: var(--dl-space-space-fiveunits);
             padding-right: var(--dl-space-space-fiveunits);
             flex-direction: row;
-            padding-bottom: 120px;
+            padding-bottom: var(--dl-space-space-threeunits);
             justify-content: flex-start;
           }
           .home-header05 {
@@ -1717,9 +1737,9 @@ window.addEventListener("load", function() {
           }
           .home-text17 {
             color: rgb(34, 34, 35);
-            font-size: 34px;
+            font-size: 19px;
             font-style: normal;
-            font-family: Tangerine;
+            font-family: Karla;
             font-weight: 700;
             padding-right: var(--dl-space-space-unit);
           }
@@ -1737,9 +1757,9 @@ window.addEventListener("load", function() {
           }
           .home-text19 {
             color: rgb(34, 34, 35);
-            font-size: 34px;
+            font-size: 19px;
             font-style: normal;
-            font-family: Tangerine;
+            font-family: Karla;
             font-weight: 700;
             padding-right: var(--dl-space-space-unit);
           }
@@ -1757,9 +1777,9 @@ window.addEventListener("load", function() {
           }
           .home-text21 {
             color: rgb(34, 34, 35);
-            font-size: 34px;
+            font-size: 19px;
             font-style: normal;
-            font-family: Tangerine;
+            font-family: Karla;
             font-weight: 700;
             padding-right: var(--dl-space-space-unit);
           }
@@ -1777,9 +1797,9 @@ window.addEventListener("load", function() {
           }
           .home-text23 {
             color: rgb(34, 34, 35);
-            font-size: 34px;
+            font-size: 19px;
             font-style: normal;
-            font-family: Tangerine;
+            font-family: Karla;
             font-weight: 700;
             padding-right: var(--dl-space-space-unit);
           }
@@ -1797,9 +1817,9 @@ window.addEventListener("load", function() {
           }
           .home-text25 {
             color: rgb(34, 34, 35);
-            font-size: 34px;
+            font-size: 19px;
             font-style: normal;
-            font-family: Tangerine;
+            font-family: Karla;
             font-weight: 700;
             padding-right: var(--dl-space-space-unit);
           }
@@ -1865,7 +1885,7 @@ window.addEventListener("load", function() {
             gap: var(--dl-space-space-threeunits);
             width: 100%;
             display: flex;
-            max-width: 250px;
+            max-width: 400px;
             align-items: center;
             padding-top: var(--dl-space-space-threeunits);
             flex-direction: column;
@@ -1881,7 +1901,10 @@ window.addEventListener("load", function() {
             font-weight: 500;
             line-height: 36px;
           }
-          .home-text28 {
+          .home-text29 {
+            font-size: 18px;
+          }
+          .home-text30 {
             width: 100%;
             font-size: 24px;
             font-style: normal;
@@ -2515,7 +2538,7 @@ window.addEventListener("load", function() {
               font-size: 18px;
               line-height: 40px;
             }
-            .home-text28 {
+            .home-text30 {
               font-size: 18px;
               line-height: 40px;
             }
