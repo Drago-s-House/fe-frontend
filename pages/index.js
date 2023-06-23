@@ -35,16 +35,18 @@ const Home = (props) => {
                 >
                   <div className="home-links">
                     <Link href="/">
-                      <a className="home-link01 navLink">Mission</a>
+                      <a className="home-link01 navLink">Sobre nosotros</a>
                     </Link>
                     <Link href="/">
-                      <a className="home-link03 navLink">Take Action</a>
+                      <a className="home-link03 navLink">Como ayudar</a>
                     </Link>
                     <Link href="/">
-                      <a className="home-link05 navLink">News</a>
+                      <a className="home-link05 navLink">
+                        Encuentra Oportunidades
+                      </a>
                     </Link>
                     <Link href="/">
-                      <a className="home-link07 navLink">Contact</a>
+                      <a className="home-link07 navLink">Contacto</a>
                     </Link>
                   </div>
                 </div>
@@ -148,9 +150,14 @@ const Home = (props) => {
               </div>
             </div>
             <div className="home-image">
-              <button className="home-button1 button">
+              <a
+                href="https://forms.gle/6JGB2TKrF2ZheaG7A"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link18 button"
+              >
                 ¡Quiero contratar!
-              </button>
+              </a>
             </div>
           </div>
           <div className="home-details-container">
@@ -304,7 +311,7 @@ const Home = (props) => {
                 </p>
               </div>
             </div>
-            <div className="home-button2"></div>
+            <div className="home-button1"></div>
           </div>
         </section>
         <section className="home-steps">
@@ -326,10 +333,15 @@ const Home = (props) => {
                   </p>
                 </div>
               </div>
-              <div className="home-button3">
-                <button className="home-button4 button">
+              <div className="home-button2">
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLScU3_18tO3-nJ9mh5aPd9-lK1EgwWsVmLbYkqF3GG0jnEhwSQ/viewform"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="home-link19 button"
+                >
                   <span className="home-text08">¡Quiero trabajar!</span>
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -614,16 +626,16 @@ const Home = (props) => {
           <div className="home-top">
             <nav className="home-navigation-links">
               <Link href="/">
-                <a className="home-link19 navLink">Mission</a>
+                <a className="home-link21 navLink">Mission</a>
               </Link>
               <Link href="/">
-                <a className="home-link21 navLink">Take Action</a>
+                <a className="home-link23 navLink">Take Action</a>
               </Link>
               <Link href="/">
-                <a className="home-link23 navLink">News</a>
+                <a className="home-link25 navLink">News</a>
               </Link>
               <Link href="/">
-                <a className="home-link25 navLink">Contact</a>
+                <a className="home-link27 navLink">Contact</a>
               </Link>
             </nav>
           </div>
@@ -782,9 +794,12 @@ window.addEventListener("load", function() {
           }
           .home-desktop-menu {
             display: flex;
+            position: relative;
           }
           .home-links {
             gap: var(--dl-space-space-twounits);
+            width: 408px;
+            height: 8px;
             display: flex;
             align-items: center;
             flex-direction: row;
@@ -934,11 +949,12 @@ window.addEventListener("load", function() {
             background-size: cover;
             background-image: url('/amigos-divirtiendose-juntos-1400w.jpg');
           }
-          .home-button1 {
+          .home-link18 {
             color: rgb(255, 255, 255);
             align-self: flex-end;
             margin-top: var(--dl-space-space-unit);
             padding-top: var(--dl-space-space-oneandhalfunits);
+            text-decoration: none;
             background-color: rgb(0, 117, 188);
           }
           .home-details-container {
@@ -1224,7 +1240,7 @@ window.addEventListener("load", function() {
             font-size: 18px;
             line-height: 27px;
           }
-          .home-button2 {
+          .home-button1 {
             gap: var(--dl-space-space-twounits);
             border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
@@ -1284,13 +1300,14 @@ window.addEventListener("load", function() {
             font-size: 18px;
             line-height: 27px;
           }
-          .home-button3 {
+          .home-button2 {
             gap: var(--dl-space-space-twounits);
             display: flex;
             align-items: flex-start;
             flex-direction: row;
           }
-          .home-button4 {
+          .home-link19 {
+            text-decoration: none;
             background-color: #0075bc;
           }
           .home-text08 {
@@ -1869,9 +1886,6 @@ window.addEventListener("load", function() {
             align-items: center;
             flex-direction: row;
           }
-          .home-link19 {
-            text-decoration: none;
-          }
           .home-link21 {
             text-decoration: none;
           }
@@ -1879,6 +1893,9 @@ window.addEventListener("load", function() {
             text-decoration: none;
           }
           .home-link25 {
+            text-decoration: none;
+          }
+          .home-link27 {
             text-decoration: none;
           }
           .home-middle {
@@ -1958,7 +1975,7 @@ window.addEventListener("load", function() {
             .home-buttons {
               flex-direction: column;
             }
-            .home-button1 {
+            .home-link18 {
               display: none;
             }
             .home-details {
@@ -1991,7 +2008,7 @@ window.addEventListener("load", function() {
             .home-content02 {
               max-width: 100%;
             }
-            .home-button2 {
+            .home-button1 {
               width: 100%;
             }
             .home-content03 {
@@ -2002,7 +2019,7 @@ window.addEventListener("load", function() {
               padding-bottom: var(--dl-space-space-sixunits);
               justify-content: flex-start;
             }
-            .home-button3 {
+            .home-button2 {
               width: 100%;
             }
             .home-content04 {
