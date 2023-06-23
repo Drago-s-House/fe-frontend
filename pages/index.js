@@ -34,20 +34,18 @@ const Home = (props) => {
                   className="home-desktop-menu"
                 >
                   <div className="home-links">
-                    <Link href="/">
-                      <a className="home-link01 navLink">Sobre nosotros</a>
-                    </Link>
-                    <Link href="/">
-                      <a className="home-link03 navLink">Como ayudar</a>
-                    </Link>
-                    <Link href="/">
-                      <a className="home-link05 navLink">
-                        Encuentra Oportunidades
-                      </a>
-                    </Link>
-                    <Link href="/">
-                      <a className="home-link07 navLink">Contacto</a>
-                    </Link>
+                    <a href="#nosotros" className="home-link navLink">
+                      Sobre nosotros
+                    </a>
+                    <a href="#como-ayudar" className="home-link01 navLink">
+                      Como ayudar
+                    </a>
+                    <a href="#oportunidades" className="home-link02 navLink">
+                      Encuentra Oportunidades
+                    </a>
+                    <a href="#contacto" className="home-link03 navLink">
+                      Contacto
+                    </a>
                   </div>
                 </div>
                 <div data-thq="thq-burger-menu" className="home-burger-menu">
@@ -76,16 +74,16 @@ const Home = (props) => {
                     </div>
                     <div className="home-links1">
                       <Link href="/">
-                        <a className="home-link09 navLink">Mission</a>
+                        <a className="home-link05 navLink">Mission</a>
                       </Link>
                       <Link href="/">
-                        <a className="home-link11 navLink">Take Action</a>
+                        <a className="home-link07 navLink">Take Action</a>
                       </Link>
                       <Link href="/">
-                        <a className="home-link13 navLink">News</a>
+                        <a className="home-link09 navLink">News</a>
                       </Link>
                       <Link href="/">
-                        <a className="home-link15 navLink">Contact</a>
+                        <a className="home-link11 navLink">Contact</a>
                       </Link>
                     </div>
                     <div className="home-icon-group">
@@ -134,7 +132,7 @@ const Home = (props) => {
                     href="https://docs.google.com/forms/d/e/1FAIpQLScU3_18tO3-nJ9mh5aPd9-lK1EgwWsVmLbYkqF3GG0jnEhwSQ/viewform"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link16 button"
+                    className="home-link12 button"
                   >
                     <span>Descubre oportunidades</span>
                   </a>
@@ -142,7 +140,7 @@ const Home = (props) => {
                     href="https://forms.gle/6JGB2TKrF2ZheaG7A"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link17 button"
+                    className="home-link13 button"
                   >
                     <span>Se parte de la inclusión</span>
                   </a>
@@ -154,7 +152,7 @@ const Home = (props) => {
                 href="https://forms.gle/6JGB2TKrF2ZheaG7A"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link18 button"
+                className="home-link14 button"
               >
                 ¡Quiero contratar!
               </a>
@@ -203,7 +201,7 @@ const Home = (props) => {
             <div className="home-main1">
               <span className="home-title">Acerca de la fundación:</span>
               <div className="home-header01">
-                <h2 className="home-heading1">
+                <h2 id="nosotros" className="home-heading1">
                   Empoderando habilidades, transformando vidas
                 </h2>
                 <p className="home-caption1">
@@ -319,7 +317,7 @@ const Home = (props) => {
             <div className="home-information">
               <div className="home-main3">
                 <div className="home-header04">
-                  <h2 className="home-heading4">
+                  <h2 id="oportunidades" className="home-heading4">
                     Superando barreras para la inclusión laboral
                   </h2>
                   <p className="home-caption4">
@@ -338,7 +336,7 @@ const Home = (props) => {
                   href="https://docs.google.com/forms/d/e/1FAIpQLScU3_18tO3-nJ9mh5aPd9-lK1EgwWsVmLbYkqF3GG0jnEhwSQ/viewform"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link19 button"
+                  className="home-link15 button"
                 >
                   <span className="home-text08">¡Quiero trabajar!</span>
                 </a>
@@ -446,7 +444,7 @@ const Home = (props) => {
         </div>
         <section className="home-donation-use">
           <div className="home-header05">
-            <h2 className="home-heading5">
+            <h2 id="como-ayudar" className="home-heading5">
               ¿Cómo las empresas pueden colaborar?
             </h2>
             <p className="home-caption5">
@@ -625,22 +623,20 @@ const Home = (props) => {
         <footer className="home-footer">
           <div className="home-top">
             <nav className="home-navigation-links">
-              <Link href="/">
-                <a className="home-link21 navLink">Mission</a>
-              </Link>
-              <Link href="/">
-                <a className="home-link23 navLink">Take Action</a>
-              </Link>
-              <Link href="/">
-                <a className="home-link25 navLink">News</a>
-              </Link>
-              <Link href="/">
-                <a className="home-link27 navLink">Contact</a>
-              </Link>
+              <a
+                href="#como-ayudar"
+                id="Contratar"
+                className="home-link16 navLink"
+              >
+                Contratar
+              </a>
+              <a href="#oportunidades" className="home-link17 navLink">
+                Buscar Empleo
+              </a>
             </nav>
           </div>
           <div className="home-middle">
-            <span className="home-text27">
+            <span id="contacto" className="home-text27">
               <span>
                 809-740-7560
                 <span
@@ -804,16 +800,16 @@ window.addEventListener("load", function() {
             align-items: center;
             flex-direction: row;
           }
+          .home-link {
+            text-decoration: none;
+          }
           .home-link01 {
             text-decoration: none;
           }
+          .home-link02 {
+            text-decoration: none;
+          }
           .home-link03 {
-            text-decoration: none;
-          }
-          .home-link05 {
-            text-decoration: none;
-          }
-          .home-link07 {
             text-decoration: none;
           }
           .home-burger-menu {
@@ -865,16 +861,16 @@ window.addEventListener("load", function() {
             display: flex;
             flex-direction: column;
           }
+          .home-link05 {
+            text-decoration: none;
+          }
+          .home-link07 {
+            text-decoration: none;
+          }
           .home-link09 {
             text-decoration: none;
           }
           .home-link11 {
-            text-decoration: none;
-          }
-          .home-link13 {
-            text-decoration: none;
-          }
-          .home-link15 {
             text-decoration: none;
           }
           .home-icon-group {
@@ -927,11 +923,11 @@ window.addEventListener("load", function() {
             align-items: flex-start;
             flex-direction: row;
           }
-          .home-link16 {
+          .home-link12 {
             text-decoration: none;
             background-color: #e8a736;
           }
-          .home-link17 {
+          .home-link13 {
             color: #f6f5ed;
             text-decoration: none;
             background-color: #0075bc;
@@ -949,7 +945,7 @@ window.addEventListener("load", function() {
             background-size: cover;
             background-image: url('/amigos-divirtiendose-juntos-1400w.jpg');
           }
-          .home-link18 {
+          .home-link14 {
             color: rgb(255, 255, 255);
             align-self: flex-end;
             margin-top: var(--dl-space-space-unit);
@@ -1306,7 +1302,7 @@ window.addEventListener("load", function() {
             align-items: flex-start;
             flex-direction: row;
           }
-          .home-link19 {
+          .home-link15 {
             text-decoration: none;
             background-color: #0075bc;
           }
@@ -1886,16 +1882,10 @@ window.addEventListener("load", function() {
             align-items: center;
             flex-direction: row;
           }
-          .home-link21 {
+          .home-link16 {
             text-decoration: none;
           }
-          .home-link23 {
-            text-decoration: none;
-          }
-          .home-link25 {
-            text-decoration: none;
-          }
-          .home-link27 {
+          .home-link17 {
             text-decoration: none;
           }
           .home-middle {
@@ -1975,7 +1965,7 @@ window.addEventListener("load", function() {
             .home-buttons {
               flex-direction: column;
             }
-            .home-link18 {
+            .home-link14 {
               display: none;
             }
             .home-details {
@@ -2056,7 +2046,7 @@ window.addEventListener("load", function() {
               padding-right: var(--dl-space-space-twounits);
               justify-content: space-between;
             }
-            .home-link17 {
+            .home-link13 {
               display: none;
             }
             .home-image {
