@@ -29,8 +29,8 @@ const FeatureCard25 = (props) => {
             justify-content: flex-start;
           }
           .feature-card25-text {
-            font-size: 40px;
-            font-family: Tangerine;
+            font-size: 22px;
+            font-family: Georgia;
             font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -55,16 +55,16 @@ const FeatureCard25 = (props) => {
 }
 
 FeatureCard25.defaultProps = {
-  rootClassName: '',
-  title: 'Empoderamiento y Desarrollo Personal',
   description:
     'Talleres y conferencias para fortalecer habilidades de liderazgo, superar barreras y alcanzar el éxito más allá de las limitaciones.',
+  rootClassName: '',
+  title: 'Empoderamiento y Desarrollo Personal',
 }
 
 FeatureCard25.propTypes = {
+  description: PropTypes.string,
   rootClassName: PropTypes.string,
   title: PropTypes.string,
-  description: PropTypes.string,
 }
 
 export default FeatureCard25

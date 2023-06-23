@@ -29,9 +29,9 @@ const FeatureCard24 = (props) => {
             justify-content: flex-start;
           }
           .feature-card24-text {
-            font-size: 40px;
+            font-size: 22px;
             font-style: normal;
-            font-family: Tangerine;
+            font-family: Georgia;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -56,16 +56,16 @@ const FeatureCard24 = (props) => {
 }
 
 FeatureCard24.defaultProps = {
-  rootClassName: '',
   title: 'Gestión de Empleo',
   description:
     'Asistencia integral en la búsqueda y gestión de empleo, incluyendo reclutamiento, preselección y apoyo durante todo el proceso.',
+  rootClassName: '',
 }
 
 FeatureCard24.propTypes = {
-  rootClassName: PropTypes.string,
   title: PropTypes.string,
   description: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default FeatureCard24

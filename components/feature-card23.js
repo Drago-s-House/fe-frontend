@@ -29,8 +29,8 @@ const FeatureCard23 = (props) => {
             justify-content: flex-start;
           }
           .feature-card23-text {
-            font-size: 40px;
-            font-family: Tangerine;
+            font-size: 22px;
+            font-family: Georgia;
             font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -55,16 +55,16 @@ const FeatureCard23 = (props) => {
 }
 
 FeatureCard23.defaultProps = {
-  rootClassName: '',
-  title: 'Reclutamiento y Selección',
   description:
     'Identificación y presentación de candidatos cualificados a través de nuestro proceso de selección inclusivo, asegurando un ajuste adecuado entre empresa y empleado.',
+  title: 'Reclutamiento y Selección',
+  rootClassName: '',
 }
 
 FeatureCard23.propTypes = {
-  rootClassName: PropTypes.string,
-  title: PropTypes.string,
   description: PropTypes.string,
+  title: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default FeatureCard23

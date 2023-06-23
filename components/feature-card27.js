@@ -29,8 +29,8 @@ const FeatureCard27 = (props) => {
             justify-content: flex-start;
           }
           .feature-card27-text {
-            font-size: 40px;
-            font-family: Tangerine;
+            font-size: 22px;
+            font-family: Georgia;
             font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -55,16 +55,16 @@ const FeatureCard27 = (props) => {
 }
 
 FeatureCard27.defaultProps = {
-  rootClassName: '',
-  title: 'Teletrabajo Inclusivo',
   description:
     'Capacitación y asesoría en teletrabajo adaptado a personas con habilidades diversas, promoviendo la inclusión laboral desde cualquier lugar.',
+  title: 'Teletrabajo Inclusivo',
+  rootClassName: '',
 }
 
 FeatureCard27.propTypes = {
-  rootClassName: PropTypes.string,
-  title: PropTypes.string,
   description: PropTypes.string,
+  title: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default FeatureCard27

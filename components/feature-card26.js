@@ -29,8 +29,8 @@ const FeatureCard26 = (props) => {
             justify-content: flex-start;
           }
           .feature-card26-text {
-            font-size: 40px;
-            font-family: Tangerine;
+            font-size: 22px;
+            font-family: Georgia;
             font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -55,16 +55,16 @@ const FeatureCard26 = (props) => {
 }
 
 FeatureCard26.defaultProps = {
-  rootClassName: '',
   title: 'Transformación Inclusiva',
   description:
     'Capacitación en políticas y procedimientos inclusivos, selección inclusiva y ajustes razonables para promover la diversidad y la inclusión en el entorno laboral.',
+  rootClassName: '',
 }
 
 FeatureCard26.propTypes = {
-  rootClassName: PropTypes.string,
   title: PropTypes.string,
   description: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default FeatureCard26

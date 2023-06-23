@@ -29,9 +29,9 @@ const FeatureCard21 = (props) => {
             justify-content: flex-start;
           }
           .feature-card21-text {
-            font-size: 40px;
+            font-size: 22px;
             font-style: normal;
-            font-family: Tangerine;
+            font-family: Georgia;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -56,15 +56,15 @@ const FeatureCard21 = (props) => {
 }
 
 FeatureCard21.defaultProps = {
-  rootClassName: '',
   title: 'Asesoría en Desarrollo Organizacional',
+  rootClassName: '',
   description:
     'Diagnóstico y consultoría para convertirse en una empresa inclusiva, creación de comités inclusivos y desarrollo de manuales inclusivos.',
 }
 
 FeatureCard21.propTypes = {
-  rootClassName: PropTypes.string,
   title: PropTypes.string,
+  rootClassName: PropTypes.string,
   description: PropTypes.string,
 }
 

@@ -29,8 +29,8 @@ const FeatureCard28 = (props) => {
             justify-content: flex-start;
           }
           .feature-card28-text {
-            font-size: 40px;
-            font-family: Tangerine;
+            font-size: 22px;
+            font-family: Georgia;
             font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -55,16 +55,16 @@ const FeatureCard28 = (props) => {
 }
 
 FeatureCard28.defaultProps = {
-  rootClassName: '',
   title: 'Emprendimiento para Todos',
   description:
     'Apoyo en la creación y promoción de emprendimientos inclusivos a través de nuestro bazar de emprendimiento.',
+  rootClassName: '',
 }
 
 FeatureCard28.propTypes = {
-  rootClassName: PropTypes.string,
   title: PropTypes.string,
   description: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default FeatureCard28

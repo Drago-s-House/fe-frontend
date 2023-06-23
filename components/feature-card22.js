@@ -29,9 +29,9 @@ const FeatureCard22 = (props) => {
             justify-content: flex-start;
           }
           .feature-card22-text {
-            font-size: 40px;
+            font-size: 22px;
             font-style: normal;
-            font-family: Tangerine;
+            font-family: Georgia;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -57,15 +57,15 @@ const FeatureCard22 = (props) => {
 
 FeatureCard22.defaultProps = {
   rootClassName: '',
-  title: 'Coaching y Acompañamiento',
   description:
     'Acompañamiento y coaching personalizado para empleados con habilidades diversas, maximizando su potencial y contribución.',
+  title: 'Coaching y Acompañamiento',
 }
 
 FeatureCard22.propTypes = {
   rootClassName: PropTypes.string,
-  title: PropTypes.string,
   description: PropTypes.string,
+  title: PropTypes.string,
 }
 
 export default FeatureCard22

@@ -5,7 +5,6 @@ import Head from 'next/head'
 import Script from 'dangerous-html/react'
 
 import Branding from '../components/branding'
-import FeatureCard2 from '../components/feature-card2'
 import FeatureCard22 from '../components/feature-card22'
 import FeatureCard21 from '../components/feature-card21'
 import FeatureCard23 from '../components/feature-card23'
@@ -196,6 +195,16 @@ const Home = (props) => {
             </div>
           </div>
         </section>
+        <div className="home-container02">
+          <iframe
+            src="https://www.youtube.com/embed/yxQWzpKC-JM"
+            className="home-iframe"
+          ></iframe>
+          <iframe
+            src="https://www.youtube.com/embed/90ky8sUA330"
+            className="home-iframe1"
+          ></iframe>
+        </div>
         <section className="home-mission">
           <div className="home-content01">
             <div className="home-main1">
@@ -268,7 +277,7 @@ const Home = (props) => {
           <div className="home-images1">
             <img
               alt="image"
-              src="/sin%20t%C3%A3%C2%ADtulo%20(1920%C3%A2%C2%A0%C3%A3%C2%97%C3%A2%C2%A01278%C3%A2%C2%A0px)-1400w.png"
+              src="/joven-afroamericana-discapacitada-silla-ruedas-casa-1400w.jpg"
               className="home-image6"
             />
           </div>
@@ -346,8 +355,7 @@ const Home = (props) => {
         </section>
         <div className="home-features">
           <h1 className="home-text09">Servicios para empresas</h1>
-          <div className="home-container02">
-            <FeatureCard2 rootClassName="rootClassName"></FeatureCard2>
+          <div className="home-container03">
             <FeatureCard22></FeatureCard22>
             <FeatureCard21></FeatureCard21>
             <FeatureCard23></FeatureCard23>
@@ -355,7 +363,7 @@ const Home = (props) => {
         </div>
         <div className="home-features1">
           <h1 className="home-text10">Servicios para personas</h1>
-          <div className="home-container03">
+          <div className="home-container04">
             <FeatureCard24></FeatureCard24>
             <FeatureCard25></FeatureCard25>
             <FeatureCard27></FeatureCard27>
@@ -368,39 +376,39 @@ const Home = (props) => {
               <h1 className="home-text11">
                 ¿Cuál es el proceso de contratación?
               </h1>
-              <div className="home-container04">
+              <div className="home-container05">
                 <div className="home-step">
-                  <div className="home-container05">
+                  <div className="home-container06">
                     <div className="home-line"></div>
-                    <div className="home-container06">
+                    <div className="home-container07">
                       <svg viewBox="0 0 1024 1024" className="home-icon10">
                         <path d="M634 558q92-64 92-174 0-88-63-151t-151-63-151 63-63 151q0 46 27 96t65 78l36 26v98h172v-98zM512 86q124 0 211 87t87 211q0 156-128 244v98q0 18-12 30t-30 12h-256q-18 0-30-12t-12-30v-98q-128-88-128-244 0-124 87-211t211-87zM384 896v-42h256v42q0 18-12 30t-30 12h-172q-18 0-30-12t-12-30z"></path>
                       </svg>
                     </div>
                     <div className="home-line1"></div>
                   </div>
-                  <div className="home-container07">
+                  <div className="home-container08">
                     <h1 className="home-text12">Identificación</h1>
                   </div>
                 </div>
                 <div className="home-step1">
-                  <div className="home-container08">
+                  <div className="home-container09">
                     <div className="home-line2"></div>
-                    <div className="home-container09">
+                    <div className="home-container10">
                       <svg viewBox="0 0 1024 1024" className="home-icon12">
                         <path d="M746 512q26 0 45-18t19-46-19-46-45-18-45 18-19 46 19 46 45 18zM618 342q26 0 45-19t19-45-19-45-45-19-45 19-19 45 19 45 45 19zM406 342q26 0 45-19t19-45-19-45-45-19-45 19-19 45 19 45 45 19zM278 512q26 0 45-18t19-46-19-46-45-18-45 18-19 46 19 46 45 18zM512 128q158 0 271 100t113 242q0 88-63 150t-151 62h-74q-28 0-46 19t-18 45q0 22 16 42t16 44q0 28-18 46t-46 18q-160 0-272-112t-112-272 112-272 272-112z"></path>
                       </svg>
                     </div>
                     <div className="home-line3"></div>
                   </div>
-                  <div className="home-container10">
+                  <div className="home-container11">
                     <h1 className="home-text13">Solicitud</h1>
                   </div>
                 </div>
                 <div className="home-step2">
-                  <div className="home-container11">
+                  <div className="home-container12">
                     <div className="home-line4"></div>
-                    <div className="home-container12">
+                    <div className="home-container13">
                       <svg viewBox="0 0 1024 1024" className="home-icon14">
                         <path d="M576 736l96 96 320-320-320-320-96 96 224 224z"></path>
                         <path d="M448 288l-96-96-320 320 320 320 96-96-224-224z"></path>
@@ -408,21 +416,21 @@ const Home = (props) => {
                     </div>
                     <div className="home-line5"></div>
                   </div>
-                  <div className="home-container13">
+                  <div className="home-container14">
                     <h1 className="home-text14">Recepción de cantidatos</h1>
                   </div>
                 </div>
                 <div className="home-step3">
-                  <div className="home-container14">
+                  <div className="home-container15">
                     <div className="home-line6"></div>
-                    <div className="home-container15">
+                    <div className="home-container16">
                       <svg viewBox="0 0 1024 1024" className="home-icon17">
                         <path d="M480 64c-265.096 0-480 214.904-480 480 0 265.098 214.904 480 480 480 265.098 0 480-214.902 480-480 0-265.096-214.902-480-480-480zM751.59 704c8.58-40.454 13.996-83.392 15.758-128h127.446c-3.336 44.196-13.624 87.114-30.68 128h-112.524zM208.41 384c-8.58 40.454-13.996 83.392-15.758 128h-127.444c3.336-44.194 13.622-87.114 30.678-128h112.524zM686.036 384c9.614 40.962 15.398 83.854 17.28 128h-191.316v-128h174.036zM512 320v-187.338c14.59 4.246 29.044 11.37 43.228 21.37 26.582 18.74 52.012 47.608 73.54 83.486 14.882 24.802 27.752 52.416 38.496 82.484h-155.264zM331.232 237.516c21.528-35.878 46.956-64.748 73.54-83.486 14.182-10 28.638-17.124 43.228-21.37v187.34h-155.264c10.746-30.066 23.616-57.68 38.496-82.484zM448 384v128h-191.314c1.88-44.146 7.666-87.038 17.278-128h174.036zM95.888 704c-17.056-40.886-27.342-83.804-30.678-128h127.444c1.762 44.608 7.178 87.546 15.758 128h-112.524zM256.686 576h191.314v128h-174.036c-9.612-40.96-15.398-83.854-17.278-128zM448 768v187.34c-14.588-4.246-29.044-11.372-43.228-21.37-26.584-18.74-52.014-47.61-73.54-83.486-14.882-24.804-27.75-52.418-38.498-82.484h155.266zM628.768 850.484c-21.528 35.876-46.958 64.746-73.54 83.486-14.184 9.998-28.638 17.124-43.228 21.37v-187.34h155.266c-10.746 30.066-23.616 57.68-38.498 82.484zM512 704v-128h191.314c-1.88 44.146-7.666 87.040-17.28 128h-174.034zM767.348 512c-1.762-44.608-7.178-87.546-15.758-128h112.524c17.056 40.886 27.344 83.806 30.68 128h-127.446zM830.658 320h-95.9c-18.638-58.762-44.376-110.294-75.316-151.428 42.536 20.34 81.058 47.616 114.714 81.272 21.48 21.478 40.362 44.938 56.502 70.156zM185.844 249.844c33.658-33.658 72.18-60.932 114.714-81.272-30.942 41.134-56.676 92.666-75.316 151.428h-95.898c16.138-25.218 35.022-48.678 56.5-70.156zM129.344 768h95.898c18.64 58.762 44.376 110.294 75.318 151.43-42.536-20.34-81.058-47.616-114.714-81.274-21.48-21.478-40.364-44.938-56.502-70.156zM774.156 838.156c-33.656 33.658-72.18 60.934-114.714 81.274 30.942-41.134 56.678-92.668 75.316-151.43h95.9c-16.14 25.218-35.022 48.678-56.502 70.156z"></path>
                       </svg>
                     </div>
                     <div className="home-line7"></div>
                   </div>
-                  <div className="home-container16">
+                  <div className="home-container17">
                     <h1 className="home-text15">Ajustes adicionales</h1>
                   </div>
                 </div>
@@ -906,9 +914,9 @@ window.addEventListener("load", function() {
           }
           .home-heading {
             color: rgb(34, 34, 35);
-            font-size: 60px;
+            font-size: 36px;
             font-style: normal;
-            font-family: Tangerine;
+            font-family: Georgia;
             font-weight: 700;
           }
           .home-caption {
@@ -1021,6 +1029,25 @@ window.addEventListener("load", function() {
             font-weight: 500;
             line-height: 24px;
           }
+          .home-container02 {
+            flex: 0 0 auto;
+            width: var(--dl-size-size-maxwidth);
+            height: var(--dl-size-size-xxlarge);
+            display: flex;
+            align-self: center;
+            align-items: center;
+            justify-content: center;
+          }
+          .home-iframe {
+            width: 400px;
+            height: 200px;
+            margin: var(--dl-space-space-oneandhalfunits);
+          }
+          .home-iframe1 {
+            width: 400px;
+            height: 200px;
+            margin: var(--dl-space-space-oneandhalfunits);
+          }
           .home-mission {
             gap: var(--dl-space-space-fiveunits);
             width: 100%;
@@ -1061,10 +1088,10 @@ window.addEventListener("load", function() {
           }
           .home-heading1 {
             color: rgb(34, 34, 35);
-            font-size: 50px;
+            font-size: 36px;
             font-style: normal;
-            font-family: Tangerine;
-            font-weight: 500;
+            font-family: Georgia;
+            font-weight: 700;
             line-height: 52px;
           }
           .home-caption1 {
@@ -1090,9 +1117,9 @@ window.addEventListener("load", function() {
           }
           .home-title1 {
             color: rgb(34, 34, 35);
-            font-size: 45px;
+            font-size: 28px;
             font-style: normal;
-            font-family: Tangerine;
+            font-family: Georgia;
             font-weight: 500;
             line-height: 52px;
             border-color: var(--dl-color-gray-black);
@@ -1115,9 +1142,9 @@ window.addEventListener("load", function() {
           }
           .home-title2 {
             color: rgb(34, 34, 35);
-            font-size: 45px;
+            font-size: 28px;
             font-style: normal;
-            font-family: Tangerine;
+            font-family: Georgia;
             font-weight: 500;
             line-height: 52px;
             border-color: var(--dl-color-gray-black);
@@ -1206,9 +1233,9 @@ window.addEventListener("load", function() {
           }
           .home-heading2 {
             color: rgb(34, 34, 35);
-            font-size: 45px;
+            font-size: 30px;
             font-style: normal;
-            font-family: Tangerine;
+            font-family: Georgia;
             font-weight: 500;
             line-height: 52px;
           }
@@ -1225,9 +1252,9 @@ window.addEventListener("load", function() {
           }
           .home-heading3 {
             color: rgb(34, 34, 35);
-            font-size: 45px;
+            font-size: 30px;
             font-style: normal;
-            font-family: Tangerine;
+            font-family: Georgia;
             font-weight: 500;
             line-height: 52px;
           }
@@ -1285,9 +1312,9 @@ window.addEventListener("load", function() {
           }
           .home-heading4 {
             color: rgb(34, 34, 35);
-            font-size: 60px;
+            font-size: 45px;
             font-style: normal;
-            font-family: Tangerine;
+            font-family: Georgia;
             font-weight: 700;
             line-height: 52px;
           }
@@ -1317,11 +1344,11 @@ window.addEventListener("load", function() {
             flex-direction: column;
           }
           .home-text09 {
-            font-size: 4rem;
-            font-family: Tangerine;
+            font-size: 1.8rem;
+            font-family: Georgia;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-container02 {
+          .home-container03 {
             width: 100%;
             display: grid;
             grid-gap: var(--dl-space-space-twounits);
@@ -1335,14 +1362,13 @@ window.addEventListener("load", function() {
             align-items: flex-start;
             margin-bottom: var(--dl-space-space-threeunits);
             flex-direction: column;
-            background-color: #e8e6da;
           }
           .home-text10 {
-            font-size: 4rem;
-            font-family: Tangerine;
+            font-size: 1.8rem;
+            font-family: Georgia;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
-          .home-container03 {
+          .home-container04 {
             width: 100%;
             display: grid;
             grid-gap: var(--dl-space-space-twounits);
@@ -1378,10 +1404,10 @@ window.addEventListener("load", function() {
           }
           .home-text11 {
             color: var(--dl-color-gray-black);
-            font-size: 3rem;
-            font-family: Tangerine;
+            font-size: 25px;
+            font-family: Georgia;
           }
-          .home-container04 {
+          .home-container05 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1397,7 +1423,7 @@ window.addEventListener("load", function() {
             align-items: center;
             flex-direction: column;
           }
-          .home-container05 {
+          .home-container06 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1421,7 +1447,7 @@ window.addEventListener("load", function() {
             border-right-width: 0px;
             border-bottom-width: 0px;
           }
-          .home-container06 {
+          .home-container07 {
             flex: 0 0 auto;
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
@@ -1450,7 +1476,7 @@ window.addEventListener("load", function() {
             border-right-width: 0px;
             border-bottom-width: 0px;
           }
-          .home-container07 {
+          .home-container08 {
             display: flex;
             align-items: center;
             padding-top: var(--dl-space-space-unit);
@@ -1460,10 +1486,10 @@ window.addEventListener("load", function() {
             padding-bottom: var(--dl-space-space-unit);
           }
           .home-text12 {
-            font-size: 30px;
+            font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: Tangerine;
+            font-family: Georgia;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -1473,7 +1499,7 @@ window.addEventListener("load", function() {
             align-items: center;
             flex-direction: column;
           }
-          .home-container08 {
+          .home-container09 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1497,7 +1523,7 @@ window.addEventListener("load", function() {
             border-right-width: 0px;
             border-bottom-width: 0px;
           }
-          .home-container09 {
+          .home-container10 {
             flex: 0 0 auto;
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
@@ -1526,7 +1552,7 @@ window.addEventListener("load", function() {
             border-right-width: 0px;
             border-bottom-width: 0px;
           }
-          .home-container10 {
+          .home-container11 {
             display: flex;
             align-items: center;
             padding-top: var(--dl-space-space-unit);
@@ -1536,10 +1562,10 @@ window.addEventListener("load", function() {
             padding-bottom: var(--dl-space-space-unit);
           }
           .home-text13 {
-            font-size: 30px;
+            font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: Tangerine;
+            font-family: Georgia;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -1549,7 +1575,7 @@ window.addEventListener("load", function() {
             align-items: center;
             flex-direction: column;
           }
-          .home-container11 {
+          .home-container12 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1573,7 +1599,7 @@ window.addEventListener("load", function() {
             border-right-width: 0px;
             border-bottom-width: 0px;
           }
-          .home-container12 {
+          .home-container13 {
             flex: 0 0 auto;
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
@@ -1602,7 +1628,7 @@ window.addEventListener("load", function() {
             border-right-width: 0px;
             border-bottom-width: 0px;
           }
-          .home-container13 {
+          .home-container14 {
             display: flex;
             align-items: center;
             padding-top: var(--dl-space-space-unit);
@@ -1612,10 +1638,10 @@ window.addEventListener("load", function() {
             padding-bottom: var(--dl-space-space-unit);
           }
           .home-text14 {
-            font-size: 30px;
+            font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: Tangerine;
+            font-family: Georgia;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -1625,7 +1651,7 @@ window.addEventListener("load", function() {
             align-items: center;
             flex-direction: column;
           }
-          .home-container14 {
+          .home-container15 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -1649,7 +1675,7 @@ window.addEventListener("load", function() {
             border-right-width: 0px;
             border-bottom-width: 0px;
           }
-          .home-container15 {
+          .home-container16 {
             flex: 0 0 auto;
             width: var(--dl-size-size-small);
             height: var(--dl-size-size-small);
@@ -1678,7 +1704,7 @@ window.addEventListener("load", function() {
             border-right-width: 0px;
             border-bottom-width: 0px;
           }
-          .home-container16 {
+          .home-container17 {
             display: flex;
             align-items: center;
             padding-top: var(--dl-space-space-unit);
@@ -1688,10 +1714,10 @@ window.addEventListener("load", function() {
             padding-bottom: var(--dl-space-space-unit);
           }
           .home-text15 {
-            font-size: 30px;
+            font-size: 18px;
             font-style: normal;
             text-align: center;
-            font-family: Tangerine;
+            font-family: Georgia;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -1722,9 +1748,9 @@ window.addEventListener("load", function() {
           }
           .home-heading5 {
             color: rgb(34, 34, 35);
-            font-size: 50px;
+            font-size: 24px;
             font-style: normal;
-            font-family: Tangerine;
+            font-family: Georgia;
             font-weight: 700;
             line-height: 52px;
           }
@@ -1752,7 +1778,7 @@ window.addEventListener("load", function() {
             color: rgb(34, 34, 35);
             font-size: 19px;
             font-style: normal;
-            font-family: Karla;
+            font-family: Georgia;
             font-weight: 700;
             padding-right: var(--dl-space-space-unit);
           }
@@ -1772,7 +1798,7 @@ window.addEventListener("load", function() {
             color: rgb(34, 34, 35);
             font-size: 19px;
             font-style: normal;
-            font-family: Karla;
+            font-family: Georgia;
             font-weight: 700;
             padding-right: var(--dl-space-space-unit);
           }
@@ -1792,7 +1818,7 @@ window.addEventListener("load", function() {
             color: rgb(34, 34, 35);
             font-size: 19px;
             font-style: normal;
-            font-family: Karla;
+            font-family: Georgia;
             font-weight: 700;
             padding-right: var(--dl-space-space-unit);
           }
@@ -1812,7 +1838,7 @@ window.addEventListener("load", function() {
             color: rgb(34, 34, 35);
             font-size: 19px;
             font-style: normal;
-            font-family: Karla;
+            font-family: Georgia;
             font-weight: 700;
             padding-right: var(--dl-space-space-unit);
           }
@@ -1832,7 +1858,7 @@ window.addEventListener("load", function() {
             color: rgb(34, 34, 35);
             font-size: 19px;
             font-style: normal;
-            font-family: Karla;
+            font-family: Georgia;
             font-weight: 700;
             padding-right: var(--dl-space-space-unit);
           }
@@ -2122,14 +2148,14 @@ window.addEventListener("load", function() {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-container02 {
+            .home-container03 {
               grid-template-columns: 1fr;
             }
             .home-features1 {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-container03 {
+            .home-container04 {
               grid-template-columns: 1fr;
             }
             .home-content04 {
@@ -2141,7 +2167,7 @@ window.addEventListener("load", function() {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-container04 {
+            .home-container05 {
               align-items: flex-start;
               padding-left: var(--dl-space-space-fiveunits);
               flex-direction: column;
@@ -2152,7 +2178,7 @@ window.addEventListener("load", function() {
               flex-direction: row;
               justify-content: center;
             }
-            .home-container05 {
+            .home-container06 {
               width: var(--dl-size-size-small);
               height: auto;
               align-self: stretch;
@@ -2169,7 +2195,7 @@ window.addEventListener("load", function() {
               border-top-width: 0px;
               border-left-width: 2px;
             }
-            .home-container07 {
+            .home-container08 {
               width: 100%;
               align-items: flex-start;
               padding-top: var(--dl-space-space-twounits);
@@ -2189,7 +2215,7 @@ window.addEventListener("load", function() {
               flex-direction: row;
               justify-content: center;
             }
-            .home-container08 {
+            .home-container09 {
               width: var(--dl-size-size-small);
               height: auto;
               align-self: stretch;
@@ -2210,7 +2236,7 @@ window.addEventListener("load", function() {
               border-top-width: 0px;
               border-left-width: 2px;
             }
-            .home-container10 {
+            .home-container11 {
               width: 100%;
               align-items: flex-start;
               padding-top: var(--dl-space-space-twounits);
@@ -2230,7 +2256,7 @@ window.addEventListener("load", function() {
               flex-direction: row;
               justify-content: center;
             }
-            .home-container11 {
+            .home-container12 {
               width: var(--dl-size-size-small);
               height: auto;
               align-self: stretch;
@@ -2251,7 +2277,7 @@ window.addEventListener("load", function() {
               border-top-width: 0px;
               border-left-width: 2px;
             }
-            .home-container13 {
+            .home-container14 {
               width: 100%;
               align-items: flex-start;
               padding-top: var(--dl-space-space-twounits);
@@ -2271,7 +2297,7 @@ window.addEventListener("load", function() {
               flex-direction: row;
               justify-content: center;
             }
-            .home-container14 {
+            .home-container15 {
               width: var(--dl-size-size-small);
               height: auto;
               align-self: stretch;
@@ -2292,7 +2318,7 @@ window.addEventListener("load", function() {
               border-top-width: 0px;
               border-left-width: 2px;
             }
-            .home-container16 {
+            .home-container17 {
               width: 100%;
               align-items: flex-start;
               padding-top: var(--dl-space-space-twounits);
@@ -2435,10 +2461,10 @@ window.addEventListener("load", function() {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-container04 {
+            .home-container05 {
               padding-left: 0px;
             }
-            .home-container07 {
+            .home-container08 {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: 0px;
@@ -2448,7 +2474,7 @@ window.addEventListener("load", function() {
               margin-left: 0px;
               margin-right: var(--dl-space-space-twounits);
             }
-            .home-container10 {
+            .home-container11 {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: 0px;
@@ -2458,7 +2484,7 @@ window.addEventListener("load", function() {
               margin-left: 0px;
               margin-right: var(--dl-space-space-twounits);
             }
-            .home-container13 {
+            .home-container14 {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: 0px;
@@ -2468,7 +2494,7 @@ window.addEventListener("load", function() {
               margin-left: 0px;
               margin-right: var(--dl-space-space-twounits);
             }
-            .home-container16 {
+            .home-container17 {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: 0px;
