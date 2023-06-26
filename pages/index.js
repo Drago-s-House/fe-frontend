@@ -964,7 +964,7 @@ window.addEventListener("load", function() {
             padding-right: var(--dl-space-space-fiveunits);
             flex-direction: column;
             background-size: cover;
-            background-image: url('/foto%203era%20graduacion%20(1');
+            background-image: url('https://storage-dragoshouse.b-cdn.net/foto%203era%20graduacion%20(1).jpeg');
           }
           .home-link14 {
             color: rgb(255, 255, 255);
