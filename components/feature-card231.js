@@ -65,20 +65,20 @@ const FeatureCard231 = (props) => {
 }
 
 FeatureCard231.defaultProps = {
+  image_alt: 'image',
+  title: 'Transformación Inclusiva',
   description:
     'Capacitación en políticas y procedimientos inclusivos, selección inclusiva y ajustes razonables para promover la diversidad y la inclusión en el entorno laboral.',
-  title: 'Transformación Inclusiva',
   rootClassName: '',
   image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
-  image_alt: 'image',
 }
 
 FeatureCard231.propTypes = {
-  description: PropTypes.string,
+  image_alt: PropTypes.string,
   title: PropTypes.string,
+  description: PropTypes.string,
   rootClassName: PropTypes.string,
   image_src: PropTypes.string,
-  image_alt: PropTypes.string,
 }
 
 export default FeatureCard231

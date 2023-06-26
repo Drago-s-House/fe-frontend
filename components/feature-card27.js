@@ -67,18 +67,18 @@ const FeatureCard27 = (props) => {
 FeatureCard27.defaultProps = {
   description:
     'Capacitación y asesoría en teletrabajo adaptado a personas con discapacidad, promoviendo la inclusión laboral desde cualquier lugar.',
-  title: 'Teletrabajo Inclusivo',
-  rootClassName: '',
-  image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
   image_alt: 'image',
+  title: 'Teletrabajo Inclusivo',
+  image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
+  rootClassName: '',
 }
 
 FeatureCard27.propTypes = {
   description: PropTypes.string,
-  title: PropTypes.string,
-  rootClassName: PropTypes.string,
-  image_src: PropTypes.string,
   image_alt: PropTypes.string,
+  title: PropTypes.string,
+  image_src: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default FeatureCard27

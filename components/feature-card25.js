@@ -65,20 +65,20 @@ const FeatureCard25 = (props) => {
 }
 
 FeatureCard25.defaultProps = {
+  image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
+  image_alt: 'image',
   description:
     'Talleres y conferencias para fortalecer habilidades de liderazgo, superar barreras y alcanzar el éxito más allá de las limitaciones.',
   rootClassName: '',
   title: 'Empoderamiento y Desarrollo Personal',
-  image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
-  image_alt: 'image',
 }
 
 FeatureCard25.propTypes = {
+  image_src: PropTypes.string,
+  image_alt: PropTypes.string,
   description: PropTypes.string,
   rootClassName: PropTypes.string,
   title: PropTypes.string,
-  image_src: PropTypes.string,
-  image_alt: PropTypes.string,
 }
 
 export default FeatureCard25

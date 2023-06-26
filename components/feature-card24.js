@@ -66,20 +66,20 @@ const FeatureCard24 = (props) => {
 }
 
 FeatureCard24.defaultProps = {
+  image_alt: 'image',
   title: 'Gestión de Empleo',
   description:
     'Asistencia integral en la búsqueda y gestión de empleo, incluyendo reclutamiento, preselección y apoyo durante todo el proceso.',
-  rootClassName: '',
   image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
-  image_alt: 'image',
+  rootClassName: '',
 }
 
 FeatureCard24.propTypes = {
+  image_alt: PropTypes.string,
   title: PropTypes.string,
   description: PropTypes.string,
-  rootClassName: PropTypes.string,
   image_src: PropTypes.string,
-  image_alt: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default FeatureCard24

@@ -376,8 +376,8 @@ const Home = (props) => {
                     <div className="home-line"></div>
                     <div className="home-container07">
                       <img
-                        src="/selection-200h.png"
                         alt="image"
+                        src="/selection-200h.png"
                         className="home-image07"
                       />
                     </div>
@@ -392,8 +392,8 @@ const Home = (props) => {
                     <div className="home-line2"></div>
                     <div className="home-container10">
                       <img
-                        src="/hired-200h.png"
                         alt="image"
+                        src="/hired-200h.png"
                         className="home-image08"
                       />
                     </div>
@@ -408,8 +408,8 @@ const Home = (props) => {
                     <div className="home-line4"></div>
                     <div className="home-container13">
                       <img
-                        src="/training-200h.png"
                         alt="image"
+                        src="/training-200h.png"
                         className="home-image09"
                       />
                     </div>
@@ -424,8 +424,8 @@ const Home = (props) => {
                     <div className="home-line6"></div>
                     <div className="home-container16">
                       <img
-                        src="/skills-200h.png"
                         alt="image"
+                        src="/skills-200h.png"
                         className="home-image10"
                       />
                     </div>
@@ -475,13 +475,13 @@ const Home = (props) => {
               </p>
               <div className="home-container19">
                 <img
-                  src="/thumbnail_erika%20rdfw-300h.jpg"
                   alt="image"
+                  src="/thumbnail_erika%20rdfw-300h.jpg"
                   className="home-image11"
                 />
                 <img
-                  src="/thumbnail_vicente%20rdfw-300h.jpg"
                   alt="image"
+                  src="/thumbnail_vicente%20rdfw-300h.jpg"
                   className="home-image12"
                 />
               </div>
@@ -2409,9 +2409,31 @@ window.addEventListener("load", function() {
             .home-mobile-menu {
               padding: 16px;
             }
+            .home-details {
+              align-self: center;
+            }
+            .home-category {
+              align-self: center;
+            }
+            .home-category1 {
+              align-self: center;
+            }
+            .home-category2 {
+              align-self: center;
+            }
+            .home-container02 {
+              gap: var(--dl-space-space-halfunit);
+              width: 100%;
+              height: 489px;
+              flex-wrap: wrap;
+            }
+            .home-iframe1 {
+              width: 400px;
+            }
             .home-mission {
-              padding-top: var(--dl-space-space-threeunits);
-              padding-bottom: var(--dl-space-space-threeunits);
+              height: 1136px;
+              padding-top: 200px;
+              padding-bottom: 200px;
             }
             .home-title {
               font-size: 12px;
@@ -2551,6 +2573,9 @@ window.addEventListener("load", function() {
             .home-donation-use {
               padding-top: var(--dl-space-space-threeunits);
               padding-bottom: var(--dl-space-space-threeunits);
+            }
+            .home-container18 {
+              width: 100%;
             }
             .home-heading5 {
               font-size: 30px;

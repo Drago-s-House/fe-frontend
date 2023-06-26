@@ -69,17 +69,17 @@ FeatureCard22.defaultProps = {
   rootClassName: '',
   description:
     'Acompañamiento y coaching personalizado para empleados con discapacidad, maximizando su potencial y contribución.',
-  title: 'Coaching y Acompañamiento',
-  image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
   image_alt: 'image',
+  image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
+  title: 'Coaching y Acompañamiento',
 }
 
 FeatureCard22.propTypes = {
   rootClassName: PropTypes.string,
   description: PropTypes.string,
-  title: PropTypes.string,
-  image_src: PropTypes.string,
   image_alt: PropTypes.string,
+  image_src: PropTypes.string,
+  title: PropTypes.string,
 }
 
 export default FeatureCard22

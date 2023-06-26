@@ -66,19 +66,19 @@ const FeatureCard28 = (props) => {
 
 FeatureCard28.defaultProps = {
   title: 'Emprendimiento para Todos',
+  image_alt: 'image',
   description:
     'Apoyo en la creación y promoción de emprendimientos inclusivos a través de nuestro bazar de emprendimiento.',
-  rootClassName: '',
   image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
-  image_alt: 'image',
+  rootClassName: '',
 }
 
 FeatureCard28.propTypes = {
   title: PropTypes.string,
-  description: PropTypes.string,
-  rootClassName: PropTypes.string,
-  image_src: PropTypes.string,
   image_alt: PropTypes.string,
+  description: PropTypes.string,
+  image_src: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default FeatureCard28

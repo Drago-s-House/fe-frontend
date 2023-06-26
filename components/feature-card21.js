@@ -68,18 +68,18 @@ const FeatureCard21 = (props) => {
 FeatureCard21.defaultProps = {
   title: 'Asesoría en Desarrollo Organizacional',
   rootClassName: '',
+  image_alt: 'image',
+  image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
   description:
     'Diagnóstico y consultoría para convertirse en una empresa inclusiva, creación de comités inclusivos y desarrollo de manuales inclusivos.',
-  image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
-  image_alt: 'image',
 }
 
 FeatureCard21.propTypes = {
   title: PropTypes.string,
   rootClassName: PropTypes.string,
-  description: PropTypes.string,
-  image_src: PropTypes.string,
   image_alt: PropTypes.string,
+  image_src: PropTypes.string,
+  description: PropTypes.string,
 }
 
 export default FeatureCard21

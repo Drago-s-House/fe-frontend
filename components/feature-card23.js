@@ -66,20 +66,20 @@ const FeatureCard23 = (props) => {
 }
 
 FeatureCard23.defaultProps = {
+  image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
+  image_alt: 'image',
   description:
     'Identificación y presentación de candidatos cualificados a través de nuestro proceso de selección inclusivo, asegurando un ajuste adecuado entre empresa y empleado.',
   title: 'Reclutamiento y Selección',
   rootClassName: '',
-  image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
-  image_alt: 'image',
 }
 
 FeatureCard23.propTypes = {
+  image_src: PropTypes.string,
+  image_alt: PropTypes.string,
   description: PropTypes.string,
   title: PropTypes.string,
   rootClassName: PropTypes.string,
-  image_src: PropTypes.string,
-  image_alt: PropTypes.string,
 }
 
 export default FeatureCard23
