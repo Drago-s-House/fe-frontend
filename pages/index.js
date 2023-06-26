@@ -965,6 +965,7 @@ window.addEventListener("load", function() {
             flex-direction: column;
             background-size: cover;
             background-image: url('https://storage-dragoshouse.b-cdn.net/foto%203era%20graduacion%20(1).jpeg');
+            background-position: center;
           }
           .home-link14 {
             color: rgb(255, 255, 255);
