@@ -20,8 +20,11 @@ const Home = (props) => {
     <>
       <div className="home-container">
         <Head>
-          <title>Fundación Guissell Eusebio</title>
-          <meta property="og:title" content="Fundación Guissell Eusebio" />
+          <title>Fundación Gissell Eusebio - Life Transformers</title>
+          <meta
+            property="og:title"
+            content="Fundación Gissell Eusebio - Life Transformers"
+          />
         </Head>
         <section className="home-hero">
           <div className="home-main">
@@ -117,9 +120,7 @@ const Home = (props) => {
                   </h1>
                   <p className="home-caption">
                     En la Fundación Gissell Eusebio, nos dedicamos a construir
-                    oportunidades para personas con diversas habilidades.
-                    Nuestra misión es brindar igualdad de oportunidades
-                    laborales y promover la inclusión en el ámbito profesional.
+                    oportunidades para personas en condición de discapacidad.
                     <span
                       dangerouslySetInnerHTML={{
                         __html: ' ',
@@ -2431,7 +2432,6 @@ window.addEventListener("load", function() {
               width: 400px;
             }
             .home-mission {
-              height: 1136px;
               padding-top: 200px;
               padding-bottom: 200px;
             }
