@@ -137,7 +137,7 @@ const Home = (props) => {
                     <span>Descubre oportunidades</span>
                   </a>
                   <a
-                    href="https://forms.gle/6JGB2TKrF2ZheaG7A"
+                    href="https://forms.gle/3rHp8hi9LSFAryGZ9"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="home-link13 button"
@@ -149,7 +149,7 @@ const Home = (props) => {
             </div>
             <div className="home-image">
               <a
-                href="https://forms.gle/6JGB2TKrF2ZheaG7A"
+                href="https://forms.gle/3rHp8hi9LSFAryGZ9"
                 target="_blank"
                 rel="noreferrer noopener"
                 className="home-link14 button"
@@ -1898,6 +1898,7 @@ window.addEventListener("load", function() {
           }
           .home-footer {
             width: 100%;
+            height: 687px;
             display: flex;
             align-items: center;
             padding-top: 120px;
