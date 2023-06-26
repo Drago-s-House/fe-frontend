@@ -473,12 +473,19 @@ const Home = (props) => {
                   }}
                 />
               </p>
+              <div className="home-container19">
+                <img
+                  src="/thumbnail_erika%20rdfw-300h.jpg"
+                  alt="image"
+                  className="home-image11"
+                />
+                <img
+                  src="/thumbnail_vicente%20rdfw-300h.jpg"
+                  alt="image"
+                  className="home-image12"
+                />
+              </div>
             </div>
-            <img
-              alt="image"
-              src="/dise%C3%A3%C2%B1o%20sin%20t%C3%A3%C2%ADtulo%20(19)-400w.png"
-              className="home-image11"
-            />
           </div>
           <div className="home-accordion">
             <div
@@ -1774,10 +1781,24 @@ window.addEventListener("load", function() {
             font-size: 18px;
             line-height: 27px;
           }
-          .home-image11 {
-            width: 400px;
+          .home-container19 {
+            flex: 0 0 auto;
+            width: 100%;
+            display: flex;
             align-self: center;
-            margin-top: var(--dl-space-space-oneandhalfunits);
+            align-items: center;
+            justify-content: center;
+          }
+          .home-image11 {
+            width: auto;
+            height: var(--dl-size-size-xxlarge);
+            margin: var(--dl-space-space-unit);
+            object-fit: cover;
+          }
+          .home-image12 {
+            width: auto;
+            height: var(--dl-size-size-xxlarge);
+            margin: var(--dl-space-space-unit);
             object-fit: cover;
           }
           .home-accordion {
