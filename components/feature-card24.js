@@ -7,6 +7,11 @@ const FeatureCard24 = (props) => {
     <>
       <div className={`feature-card24-feature-card ${props.rootClassName} `}>
         <div className="feature-card24-container">
+          <img
+            alt={props.image_alt}
+            src="/consult-200h.png"
+            className="feature-card24-image"
+          />
           <h2 className="feature-card24-text">{props.title}</h2>
           <span>{props.description}</span>
         </div>
@@ -28,10 +33,15 @@ const FeatureCard24 = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
+          .feature-card24-image {
+            width: auto;
+            object-fit: cover;
+            margin-bottom: var(--dl-space-space-unit);
+          }
           .feature-card24-text {
             font-size: 22px;
             font-style: normal;
-            font-family: Georgia;
+            font-family: Tahoma;
             font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -60,12 +70,16 @@ FeatureCard24.defaultProps = {
   description:
     'Asistencia integral en la búsqueda y gestión de empleo, incluyendo reclutamiento, preselección y apoyo durante todo el proceso.',
   rootClassName: '',
+  image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
+  image_alt: 'image',
 }
 
 FeatureCard24.propTypes = {
   title: PropTypes.string,
   description: PropTypes.string,
   rootClassName: PropTypes.string,
+  image_src: PropTypes.string,
+  image_alt: PropTypes.string,
 }
 
 export default FeatureCard24

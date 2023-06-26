@@ -7,6 +7,11 @@ const FeatureCard25 = (props) => {
     <>
       <div className={`feature-card25-feature-card ${props.rootClassName} `}>
         <div className="feature-card25-container">
+          <img
+            alt={props.image_alt}
+            src="/inspiration-200h.png"
+            className="feature-card25-image"
+          />
           <h2 className="feature-card25-text">{props.title}</h2>
           <span>{props.description}</span>
         </div>
@@ -28,9 +33,14 @@ const FeatureCard25 = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
+          .feature-card25-image {
+            width: auto;
+            object-fit: cover;
+            margin-bottom: var(--dl-space-space-unit);
+          }
           .feature-card25-text {
             font-size: 22px;
-            font-family: Georgia;
+            font-family: Tahoma;
             font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -59,12 +69,16 @@ FeatureCard25.defaultProps = {
     'Talleres y conferencias para fortalecer habilidades de liderazgo, superar barreras y alcanzar el éxito más allá de las limitaciones.',
   rootClassName: '',
   title: 'Empoderamiento y Desarrollo Personal',
+  image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
+  image_alt: 'image',
 }
 
 FeatureCard25.propTypes = {
   description: PropTypes.string,
   rootClassName: PropTypes.string,
   title: PropTypes.string,
+  image_src: PropTypes.string,
+  image_alt: PropTypes.string,
 }
 
 export default FeatureCard25

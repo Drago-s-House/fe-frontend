@@ -8,6 +8,7 @@ import Branding from '../components/branding'
 import FeatureCard22 from '../components/feature-card22'
 import FeatureCard21 from '../components/feature-card21'
 import FeatureCard23 from '../components/feature-card23'
+import FeatureCard231 from '../components/feature-card231'
 import FeatureCard24 from '../components/feature-card24'
 import FeatureCard25 from '../components/feature-card25'
 import FeatureCard27 from '../components/feature-card27'
@@ -160,7 +161,11 @@ const Home = (props) => {
           <div className="home-details-container">
             <div className="home-details">
               <div className="home-category">
-                <img alt="image" src="/details-1.svg" className="home-image1" />
+                <img
+                  alt="image"
+                  src="/disabled-200h.png"
+                  className="home-image01"
+                />
                 <p className="home-text02">
                   Fomento de la inclusión y la igualdad
                   <span
@@ -171,7 +176,7 @@ const Home = (props) => {
                 </p>
               </div>
               <div className="home-category1">
-                <img alt="image" src="/details-2.svg" className="home-image2" />
+                <img alt="image" src="/job-200h.png" className="home-image02" />
                 <p className="home-text03">
                   Fortalecimiento de la cohesión social
                   <span
@@ -182,7 +187,11 @@ const Home = (props) => {
                 </p>
               </div>
               <div className="home-category2">
-                <img alt="image" src="/details-3.svg" className="home-image3" />
+                <img
+                  alt="image"
+                  src="/assistance-200h.png"
+                  className="home-image03"
+                />
                 <p className="home-text04">
                   Impulso de la sensibilización y la educación
                   <span
@@ -214,28 +223,15 @@ const Home = (props) => {
                   Empoderando habilidades, transformando vidas
                 </h2>
                 <p className="home-caption1">
-                  <span>
-                    En nuestra Fundación, nos apasiona el empoderamiento de las
-                    personas con discapacidad. Desde 2014, hemos impulsado la
-                    iniciativa
-                    <span
-                      dangerouslySetInnerHTML={{
-                        __html: ' ',
-                      }}
-                    />
-                  </span>
-                  <span className="home-text06">
-                    COACHING PARA + MAS CAPACITADOS
-                  </span>
-                  <span>
-                    , enfocándonos en fortalezas en lugar de vulnerabilidades. A
-                    través de nuestro programa de coaching, transformamos vidas
-                    al desarrollar habilidades blandas, promover el éxito
-                    laboral y potenciar la confianza y autonomía de las personas
-                    con discapacidades físicas. Creemos en un mundo inclusivo
-                    donde todos puedan alcanzar su máximo potencial y contribuir
-                    plenamente a la sociedad.
-                  </span>
+                  En nuestra Fundación, nos apasiona el empoderamiento de las
+                  personas con discapacidad. Desde 2014, hemos impulsado la
+                  iniciativa COACHING PARA + MAS CAPACITADOS, enfocándonos en
+                  fortalezas en lugar de vulnerabilidades. A través de nuestro
+                  programa de coaching, transformamos vidas al desarrollar
+                  habilidades blandas, promover el éxito laboral y potenciar la
+                  confianza y autonomía de las personas con discapacidades.
+                  Creemos en un mundo inclusivo donde todos puedan alcanzar su
+                  máximo potencial y contribuir plenamente a la sociedad.
                 </p>
               </div>
             </div>
@@ -243,17 +239,17 @@ const Home = (props) => {
               <div className="home-highlight">
                 <h3 className="home-title1">Acción</h3>
                 <p className="home-description">
-                  ¡Unidos por la inclusión! Trabajamos para derribar barreras y
-                  promover la igualdad de oportunidades para personas con
-                  capacidades diversas.
+                  ¡Unidos por la inclusión! Trabajamos para mitigar y/o derribar
+                  barreras y promover la igualdad de oportunidades para personas
+                  con discapacidad.
                 </p>
               </div>
               <div className="home-highlight1">
-                <h3 className="home-title2">Ayuda</h3>
+                <h3 className="home-title2">Transformar</h3>
                 <p className="home-description1">
                   ¡Juntos hacia el empoderamiento! Nuestro programa de coaching
                   transforma vidas, desarrollando habilidades y fortaleciendo la
-                  confianza de las personas con habilidades únicas.
+                  confianza de las personas con discapacidad.
                 </p>
               </div>
             </div>
@@ -263,12 +259,12 @@ const Home = (props) => {
               <img
                 alt="image"
                 src="/screenshot%202023-06-20%2011.52.33-400w.png"
-                className="home-image4"
+                className="home-image04"
               />
               <img
                 alt="image"
                 src="/screenshot%202023-06-20%2011.55.23-400w.png"
-                className="home-image5"
+                className="home-image05"
               />
             </div>
           </div>
@@ -277,8 +273,8 @@ const Home = (props) => {
           <div className="home-images1">
             <img
               alt="image"
-              src="/joven-afroamericana-discapacitada-silla-ruedas-casa-1400w.jpg"
-              className="home-image6"
+              src="/graduacion%20en%20funglode%20(1)-1400w.png"
+              className="home-image06"
             />
           </div>
           <div className="home-content02">
@@ -286,13 +282,11 @@ const Home = (props) => {
               <div className="home-header02">
                 <h2 className="home-heading2">Misión</h2>
                 <p className="home-caption2">
-                  Ser una organización con posicionamiento nacional y alcance
-                  internacional que Impulse y promueva el desarrollo y la
-                  autonomía personal, empoderando a grupos socialmente
-                  vulnerables (personas con discapacidad) para que logren sus
-                  metas, eliminando la auto discriminación y la victimización,
-                  alcanzando la inserción social, cultural, escolar y laboral,
-                  para que exhiban la mejor versión de sí mismo.
+                  Somos una organización que se dedica a impulsar y potenciar el
+                  desarrollo humano y fomentamos el empoderamiento de las
+                  personas en condición de discapacidad para lograr su inclusión
+                  efectiva en el mercado laboral, orientados en sus capacidades
+                  y habilidades.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -304,12 +298,11 @@ const Home = (props) => {
                 <h2 className="home-heading3">Visión</h2>
                 <p className="home-caption3">
                   {' '}
-                  Alcanzar un liderazgo nacional entre las instituciones que
-                  trabajan potenciando el desarrollo de grupos socialmente
-                  vulnerables, con una activa participación internacional,
-                  presentando indicadores de efectividad en la transformación de
-                  la calidad de vida de los grupos intervenidos (personas con
-                  discapacidad)
+                  Ser líder nacional con miras a posicionamiento internacional,
+                  como la organización que trabaja potenciando el desarrollo de
+                  las personas en condición de discapacidad y su empoderamiento,
+                  para el logro efectivo de su inclusión en el mercado laboral,
+                  desde un enfoque de derechos y en igualdad de oportunidades.
                   <span
                     dangerouslySetInnerHTML={{
                       __html: ' ',
@@ -347,22 +340,23 @@ const Home = (props) => {
                   rel="noreferrer noopener"
                   className="home-link15 button"
                 >
-                  <span className="home-text08">¡Quiero trabajar!</span>
+                  <span className="home-text05">¡Quiero trabajar!</span>
                 </a>
               </div>
             </div>
           </div>
         </section>
         <div className="home-features">
-          <h1 className="home-text09">Servicios para empresas</h1>
+          <h1 className="home-text06">Servicios para empresas</h1>
           <div className="home-container03">
             <FeatureCard22></FeatureCard22>
             <FeatureCard21></FeatureCard21>
             <FeatureCard23></FeatureCard23>
+            <FeatureCard231></FeatureCard231>
           </div>
         </div>
         <div className="home-features1">
-          <h1 className="home-text10">Servicios para personas</h1>
+          <h1 className="home-text07">Servicios para personas</h1>
           <div className="home-container04">
             <FeatureCard24></FeatureCard24>
             <FeatureCard25></FeatureCard25>
@@ -373,7 +367,7 @@ const Home = (props) => {
         <div className="home-donate">
           <div className="home-content04">
             <div className="home-steps1">
-              <h1 className="home-text11">
+              <h1 className="home-text08">
                 ¿Cuál es el proceso de contratación?
               </h1>
               <div className="home-container05">
@@ -381,63 +375,70 @@ const Home = (props) => {
                   <div className="home-container06">
                     <div className="home-line"></div>
                     <div className="home-container07">
-                      <svg viewBox="0 0 1024 1024" className="home-icon10">
-                        <path d="M634 558q92-64 92-174 0-88-63-151t-151-63-151 63-63 151q0 46 27 96t65 78l36 26v98h172v-98zM512 86q124 0 211 87t87 211q0 156-128 244v98q0 18-12 30t-30 12h-256q-18 0-30-12t-12-30v-98q-128-88-128-244 0-124 87-211t211-87zM384 896v-42h256v42q0 18-12 30t-30 12h-172q-18 0-30-12t-12-30z"></path>
-                      </svg>
+                      <img
+                        src="/selection-200h.png"
+                        alt="image"
+                        className="home-image07"
+                      />
                     </div>
                     <div className="home-line1"></div>
                   </div>
                   <div className="home-container08">
-                    <h1 className="home-text12">Identificación</h1>
+                    <h1 className="home-text09">Identificación</h1>
                   </div>
                 </div>
                 <div className="home-step1">
                   <div className="home-container09">
                     <div className="home-line2"></div>
                     <div className="home-container10">
-                      <svg viewBox="0 0 1024 1024" className="home-icon12">
-                        <path d="M746 512q26 0 45-18t19-46-19-46-45-18-45 18-19 46 19 46 45 18zM618 342q26 0 45-19t19-45-19-45-45-19-45 19-19 45 19 45 45 19zM406 342q26 0 45-19t19-45-19-45-45-19-45 19-19 45 19 45 45 19zM278 512q26 0 45-18t19-46-19-46-45-18-45 18-19 46 19 46 45 18zM512 128q158 0 271 100t113 242q0 88-63 150t-151 62h-74q-28 0-46 19t-18 45q0 22 16 42t16 44q0 28-18 46t-46 18q-160 0-272-112t-112-272 112-272 272-112z"></path>
-                      </svg>
+                      <img
+                        src="/hired-200h.png"
+                        alt="image"
+                        className="home-image08"
+                      />
                     </div>
                     <div className="home-line3"></div>
                   </div>
                   <div className="home-container11">
-                    <h1 className="home-text13">Solicitud</h1>
+                    <h1 className="home-text10">Solicitud</h1>
                   </div>
                 </div>
                 <div className="home-step2">
                   <div className="home-container12">
                     <div className="home-line4"></div>
                     <div className="home-container13">
-                      <svg viewBox="0 0 1024 1024" className="home-icon14">
-                        <path d="M576 736l96 96 320-320-320-320-96 96 224 224z"></path>
-                        <path d="M448 288l-96-96-320 320 320 320 96-96-224-224z"></path>
-                      </svg>
+                      <img
+                        src="/training-200h.png"
+                        alt="image"
+                        className="home-image09"
+                      />
                     </div>
                     <div className="home-line5"></div>
                   </div>
                   <div className="home-container14">
-                    <h1 className="home-text14">Recepción de cantidatos</h1>
+                    <h1 className="home-text11">Recepción de cantidatos</h1>
                   </div>
                 </div>
                 <div className="home-step3">
                   <div className="home-container15">
                     <div className="home-line6"></div>
                     <div className="home-container16">
-                      <svg viewBox="0 0 1024 1024" className="home-icon17">
-                        <path d="M480 64c-265.096 0-480 214.904-480 480 0 265.098 214.904 480 480 480 265.098 0 480-214.902 480-480 0-265.096-214.902-480-480-480zM751.59 704c8.58-40.454 13.996-83.392 15.758-128h127.446c-3.336 44.196-13.624 87.114-30.68 128h-112.524zM208.41 384c-8.58 40.454-13.996 83.392-15.758 128h-127.444c3.336-44.194 13.622-87.114 30.678-128h112.524zM686.036 384c9.614 40.962 15.398 83.854 17.28 128h-191.316v-128h174.036zM512 320v-187.338c14.59 4.246 29.044 11.37 43.228 21.37 26.582 18.74 52.012 47.608 73.54 83.486 14.882 24.802 27.752 52.416 38.496 82.484h-155.264zM331.232 237.516c21.528-35.878 46.956-64.748 73.54-83.486 14.182-10 28.638-17.124 43.228-21.37v187.34h-155.264c10.746-30.066 23.616-57.68 38.496-82.484zM448 384v128h-191.314c1.88-44.146 7.666-87.038 17.278-128h174.036zM95.888 704c-17.056-40.886-27.342-83.804-30.678-128h127.444c1.762 44.608 7.178 87.546 15.758 128h-112.524zM256.686 576h191.314v128h-174.036c-9.612-40.96-15.398-83.854-17.278-128zM448 768v187.34c-14.588-4.246-29.044-11.372-43.228-21.37-26.584-18.74-52.014-47.61-73.54-83.486-14.882-24.804-27.75-52.418-38.498-82.484h155.266zM628.768 850.484c-21.528 35.876-46.958 64.746-73.54 83.486-14.184 9.998-28.638 17.124-43.228 21.37v-187.34h155.266c-10.746 30.066-23.616 57.68-38.498 82.484zM512 704v-128h191.314c-1.88 44.146-7.666 87.040-17.28 128h-174.034zM767.348 512c-1.762-44.608-7.178-87.546-15.758-128h112.524c17.056 40.886 27.344 83.806 30.68 128h-127.446zM830.658 320h-95.9c-18.638-58.762-44.376-110.294-75.316-151.428 42.536 20.34 81.058 47.616 114.714 81.272 21.48 21.478 40.362 44.938 56.502 70.156zM185.844 249.844c33.658-33.658 72.18-60.932 114.714-81.272-30.942 41.134-56.676 92.666-75.316 151.428h-95.898c16.138-25.218 35.022-48.678 56.5-70.156zM129.344 768h95.898c18.64 58.762 44.376 110.294 75.318 151.43-42.536-20.34-81.058-47.616-114.714-81.274-21.48-21.478-40.364-44.938-56.502-70.156zM774.156 838.156c-33.656 33.658-72.18 60.934-114.714 81.274 30.942-41.134 56.678-92.668 75.316-151.43h95.9c-16.14 25.218-35.022 48.678-56.502 70.156z"></path>
-                      </svg>
+                      <img
+                        src="/skills-200h.png"
+                        alt="image"
+                        className="home-image10"
+                      />
                     </div>
                     <div className="home-line7"></div>
                   </div>
                   <div className="home-container17">
-                    <h1 className="home-text15">Ajustes adicionales</h1>
+                    <h1 className="home-text12">Ajustes adicionales</h1>
                   </div>
                 </div>
               </div>
-              <span className="home-text16">
-                Nuestro servicio de reclutamiento y selección para personas con
-                habilidades diversas sigue un proceso claro y eficiente. La
+              <span className="home-text13">
+                Nuestro servicio de reclutamiento y selección para personas en
+                condición de discapacidad sigue un proceso claro y eficiente. La
                 empresa nos proporciona los perfiles de las posiciones,
                 sostenemos una reunión virtual para aclarar detalles, se firma
                 un documento de acuerdo, y procedemos a buscar candidatos.
@@ -462,9 +463,10 @@ const Home = (props) => {
                 patrocinios, contratación de servicios, participación en eventos
                 benéficos y apadrinamiento de programas, puedes contribuir
                 activamente a la integración laboral y al desarrollo personal de
-                personas con habilidades diversas. Además, al utilizar nuestro
-                centro de reclutamiento, tendrás la oportunidad de encontrar
-                talento diverso y brindar oportunidades laborales inclusivas.
+                personas en condición de discapacidad. Además, al utilizar
+                nuestro centro de reclutamiento, tendrás la oportunidad de
+                encontrar talento diverso y brindar oportunidades laborales
+                inclusivas.
                 <span
                   dangerouslySetInnerHTML={{
                     __html: ' ',
@@ -473,9 +475,9 @@ const Home = (props) => {
               </p>
             </div>
             <img
-              src="/dise%C3%A3%C2%B1o%20sin%20t%C3%A3%C2%ADtulo%20(19)-400w.png"
               alt="image"
-              className="home-image7"
+              src="/dise%C3%A3%C2%B1o%20sin%20t%C3%A3%C2%ADtulo%20(19)-400w.png"
+              className="home-image11"
             />
           </div>
           <div className="home-accordion">
@@ -484,16 +486,16 @@ const Home = (props) => {
               className="accordion-element home-element"
             >
               <div className="home-header06">
-                <h3 className="home-text17">
+                <h3 className="home-text14">
                   1. Patrocina la Inclusión: Centro de Reclutamiento y Selección
                 </h3>
                 <IconContainer rootClassName="icon-container-root-class-name4"></IconContainer>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <p className="home-text18">
+                <p className="home-text15">
                   Haz la diferencia al patrocinar nuestro Centro de
                   Reclutamiento y Selección, brindando oportunidades laborales a
-                  personas con habilidades diversas. Impulsa la inclusión y
+                  personas en condición de discapacidad. Impulsa la inclusión y
                   construye un equipo diverso y talentoso.
                 </p>
               </div>
@@ -503,14 +505,14 @@ const Home = (props) => {
               className="accordion-element home-element1"
             >
               <div className="home-header07">
-                <h3 className="home-text19">
+                <h3 className="home-text16">
                   2. Transformación Empresarial: Servicios para Empresas
                   Inclusivas
                 </h3>
                 <IconContainer rootClassName="icon-container-root-class-name5"></IconContainer>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <p className="home-text20">
+                <p className="home-text17">
                   Descubre los servicios que ofrecemos para transformar y
                   desarrollar empresas inclusivas. Nuestro enfoque especializado
                   te guiará hacia la inclusión laboral, creando un entorno de
@@ -523,13 +525,13 @@ const Home = (props) => {
               className="accordion-element home-element2"
             >
               <div className="home-header08">
-                <h3 className="home-text21">
+                <h3 className="home-text18">
                   3. Uniendo Fuerzas: Eventos Benéficos para la Inclusión
                 </h3>
                 <IconContainer rootClassName="icon-container-root-class-name6"></IconContainer>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <p className="home-text22">
+                <p className="home-text19">
                   Descubre los servicios que ofrecemos para transformar y
                   desarrollar empresas inclusivas. Nuestro enfoque especializado
                   te guiará hacia la inclusión laboral, creando un entorno de
@@ -542,19 +544,19 @@ const Home = (props) => {
               className="accordion-element home-element3"
             >
               <div className="home-header09">
-                <h3 className="home-text23">
+                <h3 className="home-text20">
                   4. Apadrina el Empoderamiento: Programa Coaching Para Más
                   Capacitados
                 </h3>
                 <IconContainer rootClassName="icon-container-root-class-name7"></IconContainer>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <p className="home-text24">
+                <p className="home-text21">
                   Haz una contribución significativa al apadrinar nuestro
                   programa Coaching Para Más Capacitados y a sus beneficiarios.
-                  Impulsa el empoderamiento y el desarrollo personal de personas
-                  con habilidades diversas, brindándoles las herramientas para
-                  alcanzar su máximo potencial.
+                  Impulsa el empoderamiento y el desarrollo humano de personas
+                  en condición de discapacidad, brindándoles las herramientas
+                  para alcanzar su máximo potencial.
                 </p>
               </div>
             </div>
@@ -563,18 +565,17 @@ const Home = (props) => {
               className="accordion-element home-element4"
             >
               <div className="home-header10">
-                <h3 className="home-text25">
+                <h3 className="home-text22">
                   5. Vacantes Inclusivas: Centro de Búsqueda y Contratación
                 </h3>
                 <IconContainer rootClassName="icon-container-root-class-name8"></IconContainer>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <p className="home-text26">
+                <p className="home-text23">
                   Encuentra talento diverso y promueve la inclusión laboral al
                   colocar tus posiciones vacantes en nuestro Centro de Búsqueda
-                  y Contratación. Descubre el potencial de personas con
-                  habilidades diversas y construye un equipo inclusivo y
-                  talentoso.
+                  y Contratación. Descubre el potencial de personas en condición
+                  de discapacidad y construye un equipo inclusivo y talentoso.
                 </p>
               </div>
             </div>
@@ -651,7 +652,7 @@ const Home = (props) => {
             </nav>
           </div>
           <div className="home-middle">
-            <span id="contacto" className="home-text27">
+            <span id="contacto" className="home-text24">
               <span>
                 809-740-7560
                 <span
@@ -660,20 +661,25 @@ const Home = (props) => {
                   }}
                 />
               </span>
-              <span className="home-text29">
+              <span className="home-text26">
                 gissell.eusebiolifetransformer@gmail.com
               </span>
             </span>
-            <span className="home-text30">
+            <span className="home-text27">
               Calle Eduardo Vicioso # 82, Edif. Isabel Michell 1, apto 3,
               Ensanche Bella Vista, Santo Domingo, Distrito Nacional, Republica
               Dominicana.
             </span>
           </div>
           <div className="home-bottom">
-            <span className="home-copyright">
-              Donado por Drago&apos;s House
-            </span>
+            <a
+              href="https://dragoshosue.com"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-copyright"
+            >
+              Donated from all our ❤️… Drago’s House.
+            </a>
           </div>
         </footer>
         <div>
@@ -958,7 +964,7 @@ window.addEventListener("load", function() {
             padding-right: var(--dl-space-space-fiveunits);
             flex-direction: column;
             background-size: cover;
-            background-image: url('/amigos-divirtiendose-juntos-1400w.jpg');
+            background-image: url('/foto%203era%20graduacion%20(1');
           }
           .home-link14 {
             color: rgb(255, 255, 255);
@@ -977,7 +983,6 @@ window.addEventListener("load", function() {
             background-color: #e9a837;
           }
           .home-details {
-            gap: var(--dl-space-space-fiveunits);
             flex: 1;
             display: flex;
             max-width: var(--dl-size-size-maxwidth);
@@ -987,6 +992,7 @@ window.addEventListener("load", function() {
             padding-right: var(--dl-space-space-fiveunits);
             flex-direction: row;
             padding-bottom: var(--dl-space-space-fourunits);
+            justify-content: space-between;
           }
           .home-category {
             gap: var(--dl-space-space-twounits);
@@ -994,7 +1000,7 @@ window.addEventListener("load", function() {
             align-items: flex-start;
             flex-direction: row;
           }
-          .home-image1 {
+          .home-image01 {
             width: 32px;
             object-fit: cover;
           }
@@ -1010,7 +1016,7 @@ window.addEventListener("load", function() {
             align-items: flex-start;
             flex-direction: row;
           }
-          .home-image2 {
+          .home-image02 {
             width: 32px;
             object-fit: cover;
           }
@@ -1025,8 +1031,9 @@ window.addEventListener("load", function() {
             display: flex;
             align-items: flex-start;
             flex-direction: row;
+            justify-content: flex-start;
           }
-          .home-image3 {
+          .home-image03 {
             width: 32px;
             object-fit: cover;
           }
@@ -1106,9 +1113,6 @@ window.addEventListener("load", function() {
             font-size: 18px;
             line-height: 27px;
           }
-          .home-text06 {
-            font-weight: 700;
-          }
           .home-highlights {
             gap: var(--dl-space-space-twounits);
             display: flex;
@@ -1180,12 +1184,12 @@ window.addEventListener("load", function() {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-image4 {
+          .home-image04 {
             width: 367px;
             object-fit: cover;
             margin-bottom: var(--dl-space-space-fiveunits);
           }
-          .home-image5 {
+          .home-image05 {
             top: 150px;
             right: 0px;
             width: 333px;
@@ -1214,7 +1218,7 @@ window.addEventListener("load", function() {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-image6 {
+          .home-image06 {
             width: 641px;
             object-fit: cover;
           }
@@ -1282,7 +1286,7 @@ window.addEventListener("load", function() {
             display: flex;
             align-items: center;
             flex-direction: column;
-            background-color: #e9a837;
+            background-color: #0075bc;
           }
           .home-content03 {
             width: 100%;
@@ -1318,7 +1322,7 @@ window.addEventListener("load", function() {
             flex-direction: column;
           }
           .home-heading4 {
-            color: rgb(34, 34, 35);
+            color: var(--dl-color-gray-white);
             font-size: 45px;
             font-style: normal;
             font-family: Tahoma;
@@ -1326,7 +1330,7 @@ window.addEventListener("load", function() {
             line-height: 52px;
           }
           .home-caption4 {
-            color: rgb(34, 34, 35);
+            color: var(--dl-color-gray-white);
             font-size: 18px;
             line-height: 27px;
           }
@@ -1338,9 +1342,9 @@ window.addEventListener("load", function() {
           }
           .home-link15 {
             text-decoration: none;
-            background-color: #0075bc;
+            background-color: #f47421;
           }
-          .home-text08 {
+          .home-text05 {
             color: rgb(255, 255, 255);
           }
           .home-features {
@@ -1350,7 +1354,7 @@ window.addEventListener("load", function() {
             max-width: var(--dl-size-size-maxwidth);
             flex-direction: column;
           }
-          .home-text09 {
+          .home-text06 {
             font-size: 28px;
             font-family: Tahoma;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -1370,7 +1374,7 @@ window.addEventListener("load", function() {
             margin-bottom: var(--dl-space-space-threeunits);
             flex-direction: column;
           }
-          .home-text10 {
+          .home-text07 {
             font-size: 28px;
             font-family: Tahoma;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
@@ -1409,7 +1413,7 @@ window.addEventListener("load", function() {
             align-items: center;
             flex-direction: column;
           }
-          .home-text11 {
+          .home-text08 {
             color: var(--dl-color-gray-black);
             font-size: 25px;
             font-family: Tahoma;
@@ -1465,10 +1469,9 @@ window.addEventListener("load", function() {
             justify-content: center;
             background-color: #f5f5f5ff;
           }
-          .home-icon10 {
-            fill: var(--dl-color-gray-500);
-            width: 24px;
-            height: 24px;
+          .home-image07 {
+            width: 25px;
+            object-fit: cover;
           }
           .home-line1 {
             flex: 1;
@@ -1492,7 +1495,7 @@ window.addEventListener("load", function() {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-unit);
           }
-          .home-text12 {
+          .home-text09 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
@@ -1541,10 +1544,9 @@ window.addEventListener("load", function() {
             justify-content: center;
             background-color: #f5f5f5ff;
           }
-          .home-icon12 {
-            fill: var(--dl-color-gray-500);
-            width: 24px;
-            height: 24px;
+          .home-image08 {
+            width: 25px;
+            object-fit: cover;
           }
           .home-line3 {
             flex: 1;
@@ -1568,7 +1570,7 @@ window.addEventListener("load", function() {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-unit);
           }
-          .home-text13 {
+          .home-text10 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
@@ -1617,10 +1619,9 @@ window.addEventListener("load", function() {
             justify-content: center;
             background-color: #f5f5f5ff;
           }
-          .home-icon14 {
-            fill: var(--dl-color-gray-500);
-            width: 24px;
-            height: 24px;
+          .home-image09 {
+            width: 25px;
+            object-fit: cover;
           }
           .home-line5 {
             flex: 1;
@@ -1644,7 +1645,7 @@ window.addEventListener("load", function() {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-unit);
           }
-          .home-text14 {
+          .home-text11 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
@@ -1693,10 +1694,9 @@ window.addEventListener("load", function() {
             justify-content: center;
             background-color: #f5f5f5ff;
           }
-          .home-icon17 {
-            fill: var(--dl-color-gray-500);
-            width: 24px;
-            height: 24px;
+          .home-image10 {
+            width: 25px;
+            object-fit: cover;
           }
           .home-line7 {
             flex: 1;
@@ -1720,7 +1720,7 @@ window.addEventListener("load", function() {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-unit);
           }
-          .home-text15 {
+          .home-text12 {
             font-size: 18px;
             font-style: normal;
             text-align: center;
@@ -1728,7 +1728,7 @@ window.addEventListener("load", function() {
             font-weight: 700;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text16 {
+          .home-text13 {
             text-align: center;
           }
           .home-donation-use {
@@ -1773,7 +1773,7 @@ window.addEventListener("load", function() {
             font-size: 18px;
             line-height: 27px;
           }
-          .home-image7 {
+          .home-image11 {
             width: 400px;
             align-self: center;
             margin-top: var(--dl-space-space-oneandhalfunits);
@@ -1794,7 +1794,7 @@ window.addEventListener("load", function() {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-text17 {
+          .home-text14 {
             color: rgb(34, 34, 35);
             font-size: 19px;
             font-style: normal;
@@ -1802,7 +1802,7 @@ window.addEventListener("load", function() {
             font-weight: 700;
             padding-right: var(--dl-space-space-unit);
           }
-          .home-text18 {
+          .home-text15 {
             color: rgb(34, 34, 35);
             font-size: 18px;
             line-height: 27px;
@@ -1814,7 +1814,7 @@ window.addEventListener("load", function() {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-text19 {
+          .home-text16 {
             color: rgb(34, 34, 35);
             font-size: 19px;
             font-style: normal;
@@ -1822,7 +1822,7 @@ window.addEventListener("load", function() {
             font-weight: 700;
             padding-right: var(--dl-space-space-unit);
           }
-          .home-text20 {
+          .home-text17 {
             color: rgb(34, 34, 35);
             font-size: 18px;
             line-height: 27px;
@@ -1834,7 +1834,7 @@ window.addEventListener("load", function() {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-text21 {
+          .home-text18 {
             color: rgb(34, 34, 35);
             font-size: 19px;
             font-style: normal;
@@ -1842,7 +1842,7 @@ window.addEventListener("load", function() {
             font-weight: 700;
             padding-right: var(--dl-space-space-unit);
           }
-          .home-text22 {
+          .home-text19 {
             color: rgb(34, 34, 35);
             font-size: 18px;
             line-height: 27px;
@@ -1854,7 +1854,7 @@ window.addEventListener("load", function() {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-text23 {
+          .home-text20 {
             color: rgb(34, 34, 35);
             font-size: 19px;
             font-style: normal;
@@ -1862,7 +1862,7 @@ window.addEventListener("load", function() {
             font-weight: 700;
             padding-right: var(--dl-space-space-unit);
           }
-          .home-text24 {
+          .home-text21 {
             color: rgb(34, 34, 35);
             font-size: 18px;
             line-height: 27px;
@@ -1874,7 +1874,7 @@ window.addEventListener("load", function() {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-text25 {
+          .home-text22 {
             color: rgb(34, 34, 35);
             font-size: 19px;
             font-style: normal;
@@ -1882,7 +1882,7 @@ window.addEventListener("load", function() {
             font-weight: 700;
             padding-right: var(--dl-space-space-unit);
           }
-          .home-text26 {
+          .home-text23 {
             color: rgb(34, 34, 35);
             font-size: 18px;
             line-height: 27px;
@@ -1945,7 +1945,7 @@ window.addEventListener("load", function() {
             padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
           }
-          .home-text27 {
+          .home-text24 {
             width: 100%;
             font-size: 24px;
             font-style: normal;
@@ -1954,10 +1954,10 @@ window.addEventListener("load", function() {
             font-weight: 500;
             line-height: 36px;
           }
-          .home-text29 {
+          .home-text26 {
             font-size: 18px;
           }
-          .home-text30 {
+          .home-text27 {
             width: 100%;
             font-size: 24px;
             font-style: normal;
@@ -1980,13 +1980,14 @@ window.addEventListener("load", function() {
             border-top-width: 1px;
           }
           .home-copyright {
-            color: rgba(0, 0, 0, 0.3);
+            color: var(--dl-color-gray-black);
             width: 100%;
             font-size: 12px;
             font-style: normal;
             text-align: center;
             font-weight: 500;
             line-height: 18px;
+            text-decoration: none;
           }
           @media (max-width: 991px) {
             .home-main {
@@ -2037,7 +2038,7 @@ window.addEventListener("load", function() {
             .home-images1 {
               width: 100%;
             }
-            .home-image6 {
+            .home-image06 {
               flex: 1;
               width: 100%;
             }
@@ -2062,7 +2063,7 @@ window.addEventListener("load", function() {
               padding-top: var(--dl-space-space-sixunits);
               padding-bottom: var(--dl-space-space-sixunits);
             }
-            .home-text11 {
+            .home-text08 {
               text-align: center;
             }
             .home-donation-use {
@@ -2152,7 +2153,7 @@ window.addEventListener("load", function() {
               padding-top: var(--dl-space-space-oneandhalfunits);
               justify-content: flex-end;
             }
-            .home-image5 {
+            .home-image05 {
               bottom: var(--dl-space-space-halfunit);
               position: static;
             }
@@ -2223,7 +2224,7 @@ window.addEventListener("load", function() {
               padding-bottom: var(--dl-space-space-twounits);
               justify-content: space-between;
             }
-            .home-text12 {
+            .home-text09 {
               margin-top: var(--dl-space-space-twounits);
               margin-left: 0px;
               margin-right: 0px;
@@ -2264,7 +2265,7 @@ window.addEventListener("load", function() {
               padding-bottom: var(--dl-space-space-twounits);
               justify-content: space-between;
             }
-            .home-text13 {
+            .home-text10 {
               margin-top: var(--dl-space-space-twounits);
               margin-left: 0px;
               margin-right: 0px;
@@ -2305,7 +2306,7 @@ window.addEventListener("load", function() {
               padding-bottom: var(--dl-space-space-twounits);
               justify-content: space-between;
             }
-            .home-text14 {
+            .home-text11 {
               margin-top: var(--dl-space-space-twounits);
               margin-left: 0px;
               margin-right: 0px;
@@ -2346,7 +2347,7 @@ window.addEventListener("load", function() {
               padding-bottom: var(--dl-space-space-twounits);
               justify-content: space-between;
             }
-            .home-text15 {
+            .home-text12 {
               margin-top: var(--dl-space-space-twounits);
               margin-left: 0px;
               margin-right: 0px;
@@ -2421,10 +2422,10 @@ window.addEventListener("load", function() {
               font-size: 30px;
               line-height: 40px;
             }
-            .home-image4 {
+            .home-image04 {
               width: 200px;
             }
-            .home-image5 {
+            .home-image05 {
               width: 200px;
             }
             .home-petitions {
@@ -2490,7 +2491,7 @@ window.addEventListener("load", function() {
               padding-right: 0px;
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text12 {
+            .home-text09 {
               margin-left: 0px;
               margin-right: var(--dl-space-space-twounits);
             }
@@ -2500,7 +2501,7 @@ window.addEventListener("load", function() {
               padding-right: 0px;
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text13 {
+            .home-text10 {
               margin-left: 0px;
               margin-right: var(--dl-space-space-twounits);
             }
@@ -2510,7 +2511,7 @@ window.addEventListener("load", function() {
               padding-right: 0px;
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text14 {
+            .home-text11 {
               margin-left: 0px;
               margin-right: var(--dl-space-space-twounits);
             }
@@ -2520,7 +2521,7 @@ window.addEventListener("load", function() {
               padding-right: 0px;
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text15 {
+            .home-text12 {
               margin-left: 0px;
               margin-right: var(--dl-space-space-twounits);
             }
@@ -2539,46 +2540,46 @@ window.addEventListener("load", function() {
             .home-element {
               gap: var(--dl-space-space-halfunit);
             }
-            .home-text17 {
+            .home-text14 {
               font-size: 16px;
             }
-            .home-text18 {
+            .home-text15 {
               line-height: 24px;
             }
             .home-element1 {
               gap: var(--dl-space-space-halfunit);
             }
-            .home-text19 {
+            .home-text16 {
               font-size: 16px;
             }
-            .home-text20 {
+            .home-text17 {
               line-height: 24px;
             }
             .home-element2 {
               gap: var(--dl-space-space-halfunit);
             }
-            .home-text21 {
+            .home-text18 {
               font-size: 16px;
             }
-            .home-text22 {
+            .home-text19 {
               line-height: 24px;
             }
             .home-element3 {
               gap: var(--dl-space-space-halfunit);
             }
-            .home-text23 {
+            .home-text20 {
               font-size: 16px;
             }
-            .home-text24 {
+            .home-text21 {
               line-height: 24px;
             }
             .home-element4 {
               gap: var(--dl-space-space-halfunit);
             }
-            .home-text25 {
+            .home-text22 {
               font-size: 16px;
             }
-            .home-text26 {
+            .home-text23 {
               line-height: 24px;
             }
             .home-footer {
@@ -2587,11 +2588,11 @@ window.addEventListener("load", function() {
             .home-navigation-links {
               flex-direction: column;
             }
-            .home-text27 {
+            .home-text24 {
               font-size: 18px;
               line-height: 40px;
             }
-            .home-text30 {
+            .home-text27 {
               font-size: 18px;
               line-height: 40px;
             }

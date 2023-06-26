@@ -30,7 +30,7 @@ const FeatureCard26 = (props) => {
           }
           .feature-card26-text {
             font-size: 22px;
-            font-family: Georgia;
+            font-family: Tahoma;
             font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
           }

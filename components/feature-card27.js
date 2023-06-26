@@ -7,6 +7,11 @@ const FeatureCard27 = (props) => {
     <>
       <div className={`feature-card27-feature-card ${props.rootClassName} `}>
         <div className="feature-card27-container">
+          <img
+            alt={props.image_alt}
+            src="/investment-200h.png"
+            className="feature-card27-image"
+          />
           <h2 className="feature-card27-text">{props.title}</h2>
           <span>{props.description}</span>
         </div>
@@ -28,9 +33,14 @@ const FeatureCard27 = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
+          .feature-card27-image {
+            width: auto;
+            object-fit: cover;
+            margin-bottom: var(--dl-space-space-unit);
+          }
           .feature-card27-text {
             font-size: 22px;
-            font-family: Georgia;
+            font-family: Tahoma;
             font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
           }
@@ -56,15 +66,19 @@ const FeatureCard27 = (props) => {
 
 FeatureCard27.defaultProps = {
   description:
-    'Capacitación y asesoría en teletrabajo adaptado a personas con habilidades diversas, promoviendo la inclusión laboral desde cualquier lugar.',
+    'Capacitación y asesoría en teletrabajo adaptado a personas con discapacidad, promoviendo la inclusión laboral desde cualquier lugar.',
   title: 'Teletrabajo Inclusivo',
   rootClassName: '',
+  image_src: 'https://play.teleporthq.io/static/svg/default-img.svg',
+  image_alt: 'image',
 }
 
 FeatureCard27.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   rootClassName: PropTypes.string,
+  image_src: PropTypes.string,
+  image_alt: PropTypes.string,
 }
 
 export default FeatureCard27
