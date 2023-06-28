@@ -130,7 +130,7 @@ const Home = (props) => {
                 </div>
                 <div className="home-buttons">
                   <a
-                    href="https://docs.google.com/forms/d/e/1FAIpQLScU3_18tO3-nJ9mh5aPd9-lK1EgwWsVmLbYkqF3GG0jnEhwSQ/viewform"
+                    href="https://forms.gle/DqrsY698Hz9N8AZP7"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="home-link12 button"
@@ -336,7 +336,7 @@ const Home = (props) => {
               </div>
               <div className="home-button2">
                 <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLScU3_18tO3-nJ9mh5aPd9-lK1EgwWsVmLbYkqF3GG0jnEhwSQ/viewform"
+                  href="https://forms.gle/DqrsY698Hz9N8AZP7"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="home-link15 button"
