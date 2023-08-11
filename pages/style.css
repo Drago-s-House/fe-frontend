@@ -24,6 +24,8 @@
   --dl-color-success-300: #199033;
   --dl-color-success-500: #32A94C;
   --dl-color-success-700: #4CC366;
+  --dl-color-primary-blue: #3461FF;
+    --dl-color-primary-yellow: #E8A736;
   --dl-size-size-xxlarge: 288px;
   --dl-size-size-maxwidth: 1400px;
   --dl-radius-radius-round: 50%;
@@ -46,14 +48,12 @@
   font-style: normal;
   transition: 0.3s;
   font-weight: 500;
-  padding-top: var(--dl-space-space-oneandhalfunits);
   border-color: #222223;
   border-width: 1px;
-  padding-left: var(--dl-space-space-twounits);
   border-radius: 0px;
-  padding-right: var(--dl-space-space-twounits);
-  padding-bottom: var(--dl-space-space-oneandhalfunits);
+  padding: var(--dl-space-space-oneandhalfunits);
   background-color: rgb(121, 212, 144);
+  font-size: 18px;
 }
 .button:hover {
   opacity: 0.5;
@@ -94,11 +94,12 @@
 .navLink {
   color: #222223;
   cursor: pointer;
+  font-family: Tahoma;
   font-size: 18px;
   font-style: normal;
   transition: 0.3s;
   font-weight: 500;
-  line-height: 27px;
+  line-height: 22px;
   white-space: nowrap;
 }
 .navLink:hover {
@@ -156,8 +157,7 @@
   display: flex;
   align-items: center;
   padding-top: var(--dl-space-space-oneandhalfunits);
-  border-color: #222223;
-  border-style: dashed;
+  border-color: rgba(0, 0, 0, 0.1);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-oneandhalfunits);
   justify-content: center;

@@ -26,6 +26,10 @@ const Branding = (props) => {
             height: auto;
             object-fit: cover;
           }
+          .branding-root-class-name1 {
+            width: 120px;
+            height: 50px;
+          }
 
           @media (max-width: 767px) {
             .branding-logo {
@@ -42,7 +46,7 @@ const Branding = (props) => {
         `}
       </style>
     </>
-  )
+  );
 }
 
 Branding.defaultProps = {

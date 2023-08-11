@@ -1,19 +1,11 @@
-import React from 'react'
-import Link from 'next/link'
-import Head from 'next/head'
+import React from "react";
+import Head from "next/head";
 
-import Script from 'dangerous-html/react'
+import Script from "dangerous-html/react";
 
-import Branding from '../components/branding'
-import FeatureCard22 from '../components/feature-card22'
-import FeatureCard21 from '../components/feature-card21'
-import FeatureCard23 from '../components/feature-card23'
-import FeatureCard231 from '../components/feature-card231'
-import FeatureCard24 from '../components/feature-card24'
-import FeatureCard25 from '../components/feature-card25'
-import FeatureCard27 from '../components/feature-card27'
-import FeatureCard28 from '../components/feature-card28'
-import IconContainer from '../components/icon-container'
+import IconContainer from "../components/icon-container";
+import FeatureCard from "../components/FeatureCard";
+import Navbar from "../components/Navbar";
 
 const Home = (props) => {
   return (
@@ -26,96 +18,14 @@ const Home = (props) => {
             content="Fundación Gissell Eusebio - Life Transformers"
           />
         </Head>
+        <Navbar />
         <section className="home-hero">
           <div className="home-main">
             <div className="home-content">
-              <header data-thq="thq-navbar" className="home-navbar-interactive">
-                <Branding rootClassName="branding-root-class-name1"></Branding>
-                <div
-                  data-thq="thq-navbar-nav"
-                  data-role="Nav"
-                  className="home-desktop-menu"
-                >
-                  <div className="home-links">
-                    <a href="#nosotros" className="home-link navLink">
-                      Sobre nosotros
-                    </a>
-                    <a href="#como-ayudar" className="home-link01 navLink">
-                      Como ayudar
-                    </a>
-                    <a href="#oportunidades" className="home-link02 navLink">
-                      Encuentra Oportunidades
-                    </a>
-                    <a href="#contacto" className="home-link03 navLink">
-                      Contacto
-                    </a>
-                  </div>
-                </div>
-                <div data-thq="thq-burger-menu" className="home-burger-menu">
-                  <button className="button">
-                    <svg viewBox="0 0 1024 1024" className="home-icon">
-                      <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
-                    </svg>
-                  </button>
-                </div>
-                <div data-thq="thq-mobile-menu" className="home-mobile-menu">
-                  <div
-                    data-thq="thq-mobile-menu-nav"
-                    data-role="Nav"
-                    className="home-nav"
-                  >
-                    <div className="home-container01">
-                      <Branding rootClassName="branding-root-class-name"></Branding>
-                      <div
-                        data-thq="thq-close-menu"
-                        className="home-menu-close"
-                      >
-                        <svg viewBox="0 0 1024 1024" className="home-icon02">
-                          <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
-                        </svg>
-                      </div>
-                    </div>
-                    <div className="home-links1">
-                      <Link href="/">
-                        <a className="home-link05 navLink">Mission</a>
-                      </Link>
-                      <Link href="/">
-                        <a className="home-link07 navLink">Take Action</a>
-                      </Link>
-                      <Link href="/">
-                        <a className="home-link09 navLink">News</a>
-                      </Link>
-                      <Link href="/">
-                        <a className="home-link11 navLink">Contact</a>
-                      </Link>
-                    </div>
-                    <div className="home-icon-group">
-                      <svg
-                        viewBox="0 0 950.8571428571428 1024"
-                        className="home-icon04"
-                      >
-                        <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
-                      </svg>
-                      <svg
-                        viewBox="0 0 877.7142857142857 1024"
-                        className="home-icon06"
-                      >
-                        <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
-                      </svg>
-                      <svg
-                        viewBox="0 0 602.2582857142856 1024"
-                        className="home-icon08"
-                      >
-                        <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
-                      </svg>
-                    </div>
-                  </div>
-                </div>
-              </header>
               <div className="home-hero-section">
                 <div className="home-header">
                   <h1 className="home-heading">
-                    {' '}
+                    {" "}
                     Habilitando oportunidades para una inclusión social plena
                   </h1>
                   <p className="home-caption">
@@ -123,7 +33,7 @@ const Home = (props) => {
                     oportunidades para personas en condición de discapacidad.
                     <span
                       dangerouslySetInnerHTML={{
-                        __html: ' ',
+                        __html: " ",
                       }}
                     />
                   </p>
@@ -148,16 +58,7 @@ const Home = (props) => {
                 </div>
               </div>
             </div>
-            <div className="home-image">
-              <a
-                href="https://forms.gle/3rHp8hi9LSFAryGZ9"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="home-link14 button"
-              >
-                ¡Quiero contratar!
-              </a>
-            </div>
+            <div className="home-image"></div>
           </div>
           <div className="home-details-container">
             <div className="home-details">
@@ -167,37 +68,37 @@ const Home = (props) => {
                   src="/disabled-200h.png"
                   className="home-image01"
                 />
-                <p className="home-text02">
+                <p className="home-text">
                   Fomento de la inclusión y la igualdad
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: ' ',
+                      __html: " ",
                     }}
                   />
                 </p>
               </div>
-              <div className="home-category1">
-                <img alt="image" src="/job-200h.png" className="home-image02" />
-                <p className="home-text03">
+              <div className="home-category">
+                <img alt="image" src="/job-200h.png" className="home-image01" />
+                <p className="home-text">
                   Fortalecimiento de la cohesión social
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: ' ',
+                      __html: " ",
                     }}
                   />
                 </p>
               </div>
-              <div className="home-category2">
+              <div className="home-category">
                 <img
                   alt="image"
                   src="/assistance-200h.png"
-                  className="home-image03"
+                  className="home-image01"
                 />
-                <p className="home-text04">
+                <p className="home-text">
                   Impulso de la sensibilización y la educación
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: ' ',
+                      __html: " ",
                     }}
                   />
                 </p>
@@ -215,12 +116,12 @@ const Home = (props) => {
             className="home-iframe1"
           ></iframe>
         </div>
-        <section className="home-mission">
+        <section className="home-mission" id="nosotros">
           <div className="home-content01">
             <div className="home-main1">
-              <span className="home-title">Acerca de la fundación:</span>
+              <span className="home-title">Acerca de la fundación</span>
               <div className="home-header01">
-                <h2 id="nosotros" className="home-heading1">
+                <h2  className="home-heading1">
                   Empoderando habilidades, transformando vidas
                 </h2>
                 <p className="home-caption1">
@@ -246,8 +147,8 @@ const Home = (props) => {
                 </p>
               </div>
               <div className="home-highlight1">
-                <h3 className="home-title2">Transformar</h3>
-                <p className="home-description1">
+                <h3 className="home-title1">Transformar</h3>
+                <p className="home-description">
                   ¡Juntos hacia el empoderamiento! Nuestro programa de coaching
                   transforma vidas, desarrollando habilidades y fortaleciendo la
                   confianza de las personas con discapacidad.
@@ -257,16 +158,20 @@ const Home = (props) => {
           </div>
           <div className="home-images">
             <div className="home-row">
-              <img
-                alt="image"
-                src="/screenshot%202023-06-20%2011.52.33-400w.png"
-                className="home-image04"
-              />
-              <img
-                alt="image"
-                src="/screenshot%202023-06-20%2011.55.23-400w.png"
-                className="home-image05"
-              />
+              <div className="image-container01">
+                <img
+                  alt="image"
+                  src="/screenshot%202023-06-20%2011.52.33-400w.png"
+                  className="home-image04"
+                />
+              </div>
+              <div className="image-container02">
+                <img
+                  alt="image"
+                  src="/screenshot%202023-06-20%2011.55.23-400w.png"
+                  className="home-image04"
+                />
+              </div>
             </div>
           </div>
         </section>
@@ -290,15 +195,15 @@ const Home = (props) => {
                   y habilidades.
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: ' ',
+                      __html: " ",
                     }}
                   />
                 </p>
               </div>
-              <div className="home-header03">
-                <h2 className="home-heading3">Visión</h2>
-                <p className="home-caption3">
-                  {' '}
+              <div className="home-header02">
+                <h2 className="home-heading2">Visión</h2>
+                <p className="home-caption2">
+                  {" "}
                   Ser líder nacional con miras a posicionamiento internacional,
                   como la organización que trabaja potenciando el desarrollo de
                   las personas en condición de discapacidad y su empoderamiento,
@@ -306,7 +211,7 @@ const Home = (props) => {
                   desde un enfoque de derechos y en igualdad de oportunidades.
                   <span
                     dangerouslySetInnerHTML={{
-                      __html: ' ',
+                      __html: " ",
                     }}
                   />
                 </p>
@@ -315,12 +220,12 @@ const Home = (props) => {
             <div className="home-button1"></div>
           </div>
         </section>
-        <section className="home-steps">
+        <section className="home-steps" id="oportunidades">
           <div className="home-content03">
             <div className="home-information">
               <div className="home-main3">
                 <div className="home-header04">
-                  <h2 id="oportunidades" className="home-heading4">
+                  <h2 className="home-heading4">
                     Superando barreras para la inclusión laboral
                   </h2>
                   <p className="home-caption4">
@@ -350,19 +255,62 @@ const Home = (props) => {
         <div className="home-features">
           <h1 className="home-text06">Servicios para empresas</h1>
           <div className="home-container03">
-            <FeatureCard22></FeatureCard22>
-            <FeatureCard21></FeatureCard21>
-            <FeatureCard23></FeatureCard23>
-            <FeatureCard231></FeatureCard231>
+            <FeatureCard
+              imageSrc="/spiritual-200h.png"
+              title="Coaching y Acompañamiento"
+              description="Acompañamiento y coaching personalizado para empleados con discapacidad, maximizando su potencial y contribución."
+            />
+            <FeatureCard
+              imageSrc="/instructor-200h.png"
+              title="Asesoría en Desarrollo Organizacional"
+              description="Diagnóstico y consultoría para convertirse en una empresa inclusiva, creación de comités inclusivos y desarrollo de manuales inclusivos."
+            />
+            <FeatureCard
+              imageSrc="/professional-200h.png"
+              title="Reclutamiento y Selección"
+              description="Identificación y presentación de candidatos cualificados a través de nuestro proceso de selección inclusivo, asegurando un ajuste adecuado entre empresa y empleado."
+            />
+            <FeatureCard
+              imageSrc="/training-200h.png"
+              title="Transformación Inclusiva"
+              description="Capacitación en políticas y procedimientos inclusivos, selección inclusiva y ajustes 
+              razonables para promover la diversidad y la inclusión en el entorno laboral."
+            />
+            <FeatureCard
+              imageSrc="/creative.png"
+              title="Conferencias"
+              description="Cómo transformarse en una empresa inclusiva, servicio al cliente con discapacidad, beneficios estratégicos de la inclusión laboral, proceso de selección inclusiva, nuevos paradigmas sobre la discapacidad."
+            />
+            <FeatureCard
+              imageSrc="/growth.png"
+              title="Asesorías"
+              description="Diagnóstico organizacional, desarrollo de una cultura inclusiva, políticas inclusivas, desarrollo de comités de inclusión, descripciones de puestos adaptados, identificación de ajustes razonables."
+            />
           </div>
         </div>
-        <div className="home-features1">
-          <h1 className="home-text07">Servicios para personas</h1>
+        <div className="home-features">
+          <h1 className="home-text06">Servicios para personas</h1>
           <div className="home-container04">
-            <FeatureCard24></FeatureCard24>
-            <FeatureCard25></FeatureCard25>
-            <FeatureCard27></FeatureCard27>
-            <FeatureCard28></FeatureCard28>
+            <FeatureCard
+              imageSrc="/consult-200h.png"
+              title="Gestión de Empleo"
+              description="Asistencia integral en la búsqueda y gestión de empleo, incluyendo reclutamiento, preselección y apoyo durante todo el proceso."
+            />
+            <FeatureCard
+              imageSrc="/inspiration-200h.png"
+              title="Empoderamiento y Desarrollo Personal"
+              description="Talleres y conferencias para fortalecer habilidades de liderazgo, superar barreras y alcanzar el éxito más allá de las limitaciones."
+            />
+            <FeatureCard
+              imageSrc="/investment-200h.png"
+              title="Teletrabajo Inclusivo"
+              description="Capacitación y asesoría en teletrabajo adaptado a personas con discapacidad, promoviendo la inclusión laboral desde cualquier lugar."
+            />
+            <FeatureCard
+              imageSrc="/empowering-200h.png"
+              title="Emprendimiento para Todos"
+              description="Apoyo en la creación y promoción de emprendimientos inclusivos a través de nuestro bazar de emprendimiento."
+            />
           </div>
         </div>
         <div className="home-donate">
@@ -401,7 +349,7 @@ const Home = (props) => {
                     <div className="home-line3"></div>
                   </div>
                   <div className="home-container11">
-                    <h1 className="home-text10">Solicitud</h1>
+                    <h1 className="home-text09">Solicitud</h1>
                   </div>
                 </div>
                 <div className="home-step2">
@@ -417,7 +365,7 @@ const Home = (props) => {
                     <div className="home-line5"></div>
                   </div>
                   <div className="home-container14">
-                    <h1 className="home-text11">Recepción de cantidatos</h1>
+                    <h1 className="home-text09">Recepción de cantidatos</h1>
                   </div>
                 </div>
                 <div className="home-step3">
@@ -433,7 +381,7 @@ const Home = (props) => {
                     <div className="home-line7"></div>
                   </div>
                   <div className="home-container17">
-                    <h1 className="home-text12">Ajustes adicionales</h1>
+                    <h1 className="home-text09">Ajustes adicionales</h1>
                   </div>
                 </div>
               </div>
@@ -452,10 +400,10 @@ const Home = (props) => {
             </div>
           </div>
         </div>
-        <section className="home-donation-use">
+        <section className="home-donation-use" id="como-ayudar">
           <div className="home-container18">
             <div className="home-header05">
-              <h2 id="como-ayudar" className="home-heading5">
+              <h2  className="home-heading5">
                 ¿Cómo las empresas pueden colaborar?
               </h2>
               <p className="home-caption5">
@@ -470,7 +418,7 @@ const Home = (props) => {
                 inclusivas.
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: ' ',
+                    __html: " ",
                   }}
                 />
               </p>
@@ -495,7 +443,7 @@ const Home = (props) => {
             >
               <div className="home-header06">
                 <h3 className="home-text14">
-                  1. Patrocina la Inclusión: Centro de Reclutamiento y Selección
+                  Patrocina la Inclusión: Centro de Reclutamiento y Selección
                 </h3>
                 <IconContainer rootClassName="icon-container-root-class-name4"></IconContainer>
               </div>
@@ -512,15 +460,14 @@ const Home = (props) => {
               data-role="accordion-container"
               className="accordion-element home-element1"
             >
-              <div className="home-header07">
-                <h3 className="home-text16">
-                  2. Transformación Empresarial: Servicios para Empresas
-                  Inclusivas
+              <div className="home-header06">
+                <h3 className="home-text14">
+                  Transformación Empresarial: Servicios para Empresas Inclusivas
                 </h3>
                 <IconContainer rootClassName="icon-container-root-class-name5"></IconContainer>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <p className="home-text17">
+                <p className="home-text15">
                   Descubre los servicios que ofrecemos para transformar y
                   desarrollar empresas inclusivas. Nuestro enfoque especializado
                   te guiará hacia la inclusión laboral, creando un entorno de
@@ -532,14 +479,14 @@ const Home = (props) => {
               data-role="accordion-container"
               className="accordion-element home-element2"
             >
-              <div className="home-header08">
-                <h3 className="home-text18">
-                  3. Uniendo Fuerzas: Eventos Benéficos para la Inclusión
+              <div className="home-header06">
+                <h3 className="home-text14">
+                  Uniendo Fuerzas: Eventos Benéficos para la Inclusión
                 </h3>
                 <IconContainer rootClassName="icon-container-root-class-name6"></IconContainer>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <p className="home-text19">
+                <p className="home-text15">
                   Descubre los servicios que ofrecemos para transformar y
                   desarrollar empresas inclusivas. Nuestro enfoque especializado
                   te guiará hacia la inclusión laboral, creando un entorno de
@@ -551,15 +498,15 @@ const Home = (props) => {
               data-role="accordion-container"
               className="accordion-element home-element3"
             >
-              <div className="home-header09">
-                <h3 className="home-text20">
-                  4. Apadrina el Empoderamiento: Programa Coaching Para Más
+              <div className="home-header06">
+                <h3 className="home-text14">
+                  Apadrina el Empoderamiento: Programa Coaching Para Más
                   Capacitados
                 </h3>
                 <IconContainer rootClassName="icon-container-root-class-name7"></IconContainer>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <p className="home-text21">
+                <p className="home-text15">
                   Haz una contribución significativa al apadrinar nuestro
                   programa Coaching Para Más Capacitados y a sus beneficiarios.
                   Impulsa el empoderamiento y el desarrollo humano de personas
@@ -572,18 +519,41 @@ const Home = (props) => {
               data-role="accordion-container"
               className="accordion-element home-element4"
             >
-              <div className="home-header10">
-                <h3 className="home-text22">
-                  5. Vacantes Inclusivas: Centro de Búsqueda y Contratación
+              <div className="home-header06">
+                <h3 className="home-text14">
+                  Vacantes Inclusivas: Centro de Búsqueda y Contratación
                 </h3>
                 <IconContainer rootClassName="icon-container-root-class-name8"></IconContainer>
               </div>
               <div data-role="accordion-content" className="accordion-content">
-                <p className="home-text23">
+                <p className="home-text15">
                   Encuentra talento diverso y promueve la inclusión laboral al
                   colocar tus posiciones vacantes en nuestro Centro de Búsqueda
                   y Contratación. Descubre el potencial de personas en condición
                   de discapacidad y construye un equipo inclusivo y talentoso.
+                </p>
+              </div>
+            </div>
+            <div
+              data-role="accordion-container"
+              className="accordion-element home-element5"
+            >
+              <div className="home-header06">
+                <h3 className="home-text14">Desayunos y almuerzos benéficos</h3>
+                <IconContainer rootClassName="icon-container-root-class-name9"></IconContainer>
+              </div>
+              <div data-role="accordion-content" className="accordion-content">
+                <p className="home-text15">
+                  • Proceso de Transformación de las Empresas a Inclusivas,
+                  orador Licdo. Pedro Pablo Acevedo, 2022. • Enfoque de Derechos
+                  Humanos sobre la discapacidad, oradora Invitada Faride Rafúl,
+                  2021. • Nuevos Paradigmas sobre la Discapacidad, orador Lic.
+                  Juan Ariel Jiménez, 2019. • Mejores Prácticas de Inclusión
+                  Laboral de P’scD, orador Celso Marranzini, 2018. •
+                  Responsabilidad Social e Inclusión laboral, oradora invitada:
+                  Dra. Margarita Cedeño, 2017. • Lanzamiento del Club de
+                  Empresas Inclusivas, orador invitado Sr. Oscar
+                  Villanueva, 2016.
                 </p>
               </div>
             </div>
@@ -643,29 +613,28 @@ const Home = (props) => {
             </div>
           </div>
         </section>
-        <section className="home-updates"></section>
-        <footer className="home-footer">
+        <footer className="home-footer" id="contacto">
           <div className="home-top">
             <nav className="home-navigation-links">
               <a
                 href="#como-ayudar"
                 id="Contratar"
-                className="home-link16 navLink"
+                className="navLink home-link16 "
               >
                 Contratar
               </a>
-              <a href="#oportunidades" className="home-link17 navLink">
+              <a href="#oportunidades" className="navLink home-link16 ">
                 Buscar Empleo
               </a>
             </nav>
           </div>
           <div className="home-middle">
-            <span id="contacto" className="home-text24">
+            <span className="home-text24">
               <span>
                 809-740-7560
                 <span
                   dangerouslySetInnerHTML={{
-                    __html: ' ',
+                    __html: " ",
                   }}
                 />
               </span>
@@ -678,6 +647,43 @@ const Home = (props) => {
               Ensanche Bella Vista, Santo Domingo, Distrito Nacional, Republica
               Dominicana.
             </span>
+          </div>
+          <div className="home-form-container">
+            <form>
+              <div className="home-form">
+                <input
+                  type="text"
+                  placeholder="Nombre y apellido"
+                  required
+                  className="home-input"
+                />
+                <input
+                  type="email"
+                  placeholder="Correo electrónico"
+                  required
+                  className="home-input"
+                />
+                <input
+                  type="text"
+                  placeholder="Empresa (si aplica)"
+                  className="home-input"
+                />
+                <input
+                  type="text"
+                  pattern="\d*"
+                  inputMode="numeric"
+                  placeholder="Teléfono"
+                  className="home-input"
+                />
+                <textarea
+                  type="text"
+                  placeholder="Comentario"
+                  required
+                  className="home-input"
+                />
+                <input type="submit" className="button form-button" />
+              </div>
+            </form>
           </div>
           <div className="home-bottom">
             <a
@@ -702,15 +708,6 @@ function showSlide(n) {
   slides[currentSlide].classList.add('slide-active');
 }
 
-const previousSlideButton = document.querySelector('#previous-slide');
-previousSlideButton.addEventListener('click', () => {
-  showSlide(currentSlide - 1);
-});
-
-const nextSlideButton = document.querySelector('#next-slide');
-nextSlideButton.addEventListener('click', () => {
-  showSlide(currentSlide + 1);
-});
 </script>`}
           ></Script>
         </div>
@@ -781,23 +778,23 @@ window.addEventListener("load", function() {
           }
           .home-hero {
             width: 100%;
+            margin-top: 126px;
             display: flex;
             align-items: center;
             flex-direction: column;
             background-size: auto;
             justify-content: flex-start;
-            background-image: url('/sin%20t%C3%A3%C2%ADtulo%20(1920%C3%A2%C2%A0%C3%A3%C2%97%C3%A2%C2%A0905%C3%A2%C2%A0px');
+            background-image: url("/sin%20t%C3%A3%C2%ADtulo%20(1920%C3%A2%C2%A0%C3%A3%C2%97%C3%A2%C2%A0905%C3%A2%C2%A0px");
             background-repeat: repeat-x;
             background-position: top;
           }
           .home-main {
             gap: var(--dl-space-space-fiveunits);
             width: 100%;
-            height: 646px;
+            height: 620px;
             display: flex;
-            max-width: var(--dl-size-size-maxwidth);
             align-items: center;
-            padding-left: var(--dl-space-space-fiveunits);
+            padding-left: var(--dl-space-space-threeunits);
             flex-direction: row;
           }
           .home-content {
@@ -806,126 +803,17 @@ window.addEventListener("load", function() {
             height: 100%;
             display: flex;
             align-items: flex-start;
-            padding-top: var(--dl-space-space-oneandhalfunits);
             flex-direction: column;
-          }
-          .home-navbar-interactive {
-            gap: var(--dl-space-space-threeunits);
-            width: 100%;
-            display: flex;
-            position: relative;
-            align-items: center;
-            justify-content: center;
-          }
-          .home-desktop-menu {
-            display: flex;
-            position: relative;
-          }
-          .home-links {
-            gap: var(--dl-space-space-twounits);
-            width: 408px;
-            height: 8px;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-          }
-          .home-link {
-            text-decoration: none;
-          }
-          .home-link01 {
-            text-decoration: none;
-          }
-          .home-link02 {
-            text-decoration: none;
-          }
-          .home-link03 {
-            text-decoration: none;
-          }
-          .home-burger-menu {
-            display: none;
-            align-items: center;
-            justify-content: center;
-          }
-          .home-icon {
-            width: var(--dl-size-size-xsmall);
-            height: var(--dl-size-size-xsmall);
-          }
-          .home-mobile-menu {
-            top: 0px;
-            left: 0px;
-            width: 100%;
-            height: 100vh;
-            display: none;
-            padding: 32px;
-            z-index: 100;
-            position: fixed;
-            flex-direction: column;
-            justify-content: space-between;
-            background-color: #fff;
-          }
-          .home-nav {
-            gap: var(--dl-space-space-twounits);
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .home-container01 {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            padding-bottom: var(--dl-space-space-oneandhalfunits);
-            justify-content: space-between;
-          }
-          .home-menu-close {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-          }
-          .home-icon02 {
-            width: var(--dl-size-size-xsmall);
-            height: var(--dl-size-size-xsmall);
-          }
-          .home-links1 {
-            gap: var(--dl-space-space-oneandhalfunits);
-            display: flex;
-            flex-direction: column;
-          }
-          .home-link05 {
-            text-decoration: none;
-          }
-          .home-link07 {
-            text-decoration: none;
-          }
-          .home-link09 {
-            text-decoration: none;
-          }
-          .home-link11 {
-            text-decoration: none;
-          }
-          .home-icon-group {
-            display: flex;
-          }
-          .home-icon04 {
-            width: var(--dl-size-size-xsmall);
-            height: var(--dl-size-size-xsmall);
-            margin-right: var(--dl-space-space-twounits);
-          }
-          .home-icon06 {
-            width: var(--dl-size-size-xsmall);
-            height: var(--dl-size-size-xsmall);
-            margin-right: var(--dl-space-space-twounits);
-          }
-          .home-icon08 {
-            width: var(--dl-size-size-xsmall);
-            height: var(--dl-size-size-xsmall);
           }
           .home-hero-section {
             gap: var(--dl-space-space-threeunits);
             width: 100%;
             display: flex;
             max-width: 600px;
-            align-items: flex-start;
+            align-items: center;
+            justify-content: center;
             flex-direction: column;
+            flex: 1;
           }
           .home-header {
             gap: var(--dl-space-space-unit);
@@ -967,21 +855,10 @@ window.addEventListener("load", function() {
             display: flex;
             overflow: hidden;
             align-items: flex-end;
-            padding-top: var(--dl-space-space-oneandhalfunits);
-            padding-left: var(--dl-space-space-fiveunits);
-            padding-right: var(--dl-space-space-fiveunits);
             flex-direction: column;
             background-size: cover;
-            background-image: url('https://storage-dragoshouse.b-cdn.net/foto%203era%20graduacion%20(1).jpeg');
+            background-image: url("https://storage-dragoshouse.b-cdn.net/foto%203era%20graduacion%20(1).jpeg");
             background-position: center;
-          }
-          .home-link14 {
-            color: rgb(255, 255, 255);
-            align-self: flex-end;
-            margin-top: var(--dl-space-space-unit);
-            padding-top: var(--dl-space-space-oneandhalfunits);
-            text-decoration: none;
-            background-color: rgb(0, 117, 188);
           }
           .home-details-container {
             width: 100%;
@@ -995,58 +872,24 @@ window.addEventListener("load", function() {
             flex: 1;
             display: flex;
             max-width: var(--dl-size-size-maxwidth);
-            align-items: flex-start;
-            padding-top: var(--dl-space-space-fourunits);
-            padding-left: var(--dl-space-space-fiveunits);
-            padding-right: var(--dl-space-space-fiveunits);
+            align-items: center;
             flex-direction: row;
-            padding-bottom: var(--dl-space-space-fourunits);
+            padding: var(--dl-space-space-fourunits)
+              var(--dl-space-space-fiveunits);
             justify-content: space-between;
           }
           .home-category {
             gap: var(--dl-space-space-twounits);
             display: flex;
-            align-items: flex-start;
+            align-items: center;
             flex-direction: row;
+            column-gap: var(--dl-space-space-oneandhalfunits);
           }
           .home-image01 {
-            width: 32px;
+            width: 40px;
             object-fit: cover;
           }
-          .home-text02 {
-            max-width: 282px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 24px;
-          }
-          .home-category1 {
-            gap: var(--dl-space-space-twounits);
-            display: flex;
-            align-items: flex-start;
-            flex-direction: row;
-          }
-          .home-image02 {
-            width: 32px;
-            object-fit: cover;
-          }
-          .home-text03 {
-            max-width: 282px;
-            font-style: normal;
-            font-weight: 500;
-            line-height: 24px;
-          }
-          .home-category2 {
-            gap: var(--dl-space-space-twounits);
-            display: flex;
-            align-items: flex-start;
-            flex-direction: row;
-            justify-content: flex-start;
-          }
-          .home-image03 {
-            width: 32px;
-            object-fit: cover;
-          }
-          .home-text04 {
+          .home-text {
             max-width: 282px;
             font-style: normal;
             font-weight: 500;
@@ -1075,13 +918,10 @@ window.addEventListener("load", function() {
             gap: var(--dl-space-space-fiveunits);
             width: 100%;
             display: flex;
-            max-width: var(--dl-size-size-maxwidth);
             align-items: center;
-            padding-top: var(--dl-space-space-twounits);
-            padding-left: var(--dl-space-space-fiveunits);
-            padding-right: var(--dl-space-space-fiveunits);
             flex-direction: row;
-            padding-bottom: var(--dl-space-space-twounits);
+            padding: var(--dl-space-space-fourunits)
+              var(--dl-space-space-threeunits);
             justify-content: center;
           }
           .home-content01 {
@@ -1136,16 +976,12 @@ window.addEventListener("load", function() {
             flex-direction: column;
           }
           .home-title1 {
-            color: rgb(34, 34, 35);
-            font-size: 28px;
+            color: var(--dl-color-primary-blue);
+            font-size: 36px;
             font-style: normal;
             font-family: Tahoma;
             font-weight: 700;
             line-height: 52px;
-            border-color: var(--dl-color-gray-black);
-            border-style: dashed;
-            padding-left: var(--dl-space-space-oneandhalfunits);
-            border-left-width: 1px;
           }
           .home-description {
             color: rgb(34, 34, 35);
@@ -1160,64 +996,39 @@ window.addEventListener("load", function() {
             align-items: flex-start;
             flex-direction: column;
           }
-          .home-title2 {
-            color: rgb(34, 34, 35);
-            font-size: 28px;
-            font-style: normal;
-            font-family: Tahoma;
-            font-weight: 700;
-            line-height: 52px;
-            border-color: var(--dl-color-gray-black);
-            border-style: dashed;
-            padding-left: var(--dl-space-space-oneandhalfunits);
-            border-left-width: 1px;
-          }
-          .home-description1 {
-            color: rgb(34, 34, 35);
-            font-style: normal;
-            font-weight: 500;
-            line-height: 24px;
-          }
           .home-images {
             flex: 1;
             display: flex;
-            position: relative;
-            align-items: flex-end;
-            flex-direction: row;
-            justify-content: space-between;
           }
           .home-row {
             display: flex;
-            align-self: center;
-            align-items: flex-end;
-            flex-direction: row;
-            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
           }
           .home-image04 {
-            width: 367px;
+            width: 554px;
             object-fit: cover;
-            margin-bottom: var(--dl-space-space-fiveunits);
           }
-          .home-image05 {
-            top: 150px;
-            right: 0px;
-            width: 333px;
-            z-index: 100;
-            position: absolute;
-            object-fit: cover;
+          .image-container01{
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+          }
+          .image-container02{
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
           }
           .home-petitions {
             gap: var(--dl-space-space-fiveunits);
             width: 100%;
             display: flex;
-            max-width: var(--dl-size-size-maxwidth);
             align-items: center;
-            padding-top: var(--dl-space-space-threeunits);
-            padding-left: var(--dl-space-space-fiveunits);
-            padding-right: var(--dl-space-space-fiveunits);
             flex-direction: row;
-            padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
+            padding-right: var(--dl-space-space-threeunits);
+            background-color: var(--dl-color-primary-yellow);
           }
           .home-images1 {
             flex: 1;
@@ -1228,15 +1039,15 @@ window.addEventListener("load", function() {
             justify-content: space-between;
           }
           .home-image06 {
-            width: 641px;
+            width: 100%;
             object-fit: cover;
           }
           .home-content02 {
-            gap: var(--dl-space-space-threeunits);
             width: 100%;
             display: flex;
             max-width: 600px;
             align-items: flex-start;
+            justify-content: center;
             flex-direction: column;
           }
           .home-main2 {
@@ -1252,36 +1063,17 @@ window.addEventListener("load", function() {
             flex-direction: column;
           }
           .home-heading2 {
-            color: rgb(34, 34, 35);
-            font-size: 30px;
+            color: var(--dl-color-gray-white);
+            font-size: 36px;
             font-style: normal;
             font-family: Tahoma;
             font-weight: 700;
-            line-height: 52px;
+            line-height: 54px;
           }
           .home-caption2 {
             color: rgb(34, 34, 35);
             font-size: 18px;
-            line-height: 27px;
-          }
-          .home-header03 {
-            gap: var(--dl-space-space-unit);
-            display: flex;
-            align-items: flex-start;
-            flex-direction: column;
-          }
-          .home-heading3 {
-            color: rgb(34, 34, 35);
-            font-size: 30px;
-            font-style: normal;
-            font-family: Tahoma;
-            font-weight: 700;
-            line-height: 52px;
-          }
-          .home-caption3 {
-            color: rgb(34, 34, 35);
-            font-size: 18px;
-            line-height: 27px;
+            line-height: 30px;
           }
           .home-button1 {
             gap: var(--dl-space-space-twounits);
@@ -1295,25 +1087,21 @@ window.addEventListener("load", function() {
             display: flex;
             align-items: center;
             flex-direction: column;
-            background-color: #0075bc;
+            background-color: rgba(52, 97, 255, 0.15);
           }
           .home-content03 {
             width: 100%;
             display: flex;
-            max-width: var(--dl-size-size-maxwidth);
             align-items: center;
-            padding-top: 120px;
-            padding-left: var(--dl-space-space-fiveunits);
-            padding-right: var(--dl-space-space-fiveunits);
             flex-direction: row;
-            padding-bottom: 120px;
             justify-content: space-between;
+            padding: var(--dl-space-space-fourunits)
+              var(--dl-space-space-threeunits);
           }
           .home-information {
-            gap: var(--dl-space-space-threeunits);
+            gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
-            max-width: 800px;
             align-items: flex-start;
             flex-direction: column;
           }
@@ -1331,17 +1119,18 @@ window.addEventListener("load", function() {
             flex-direction: column;
           }
           .home-heading4 {
-            color: var(--dl-color-gray-white);
-            font-size: 45px;
+            color: var(--dl-color-primary-blue);
+            font-size: 36px;
             font-style: normal;
             font-family: Tahoma;
             font-weight: 700;
-            line-height: 52px;
+            line-height: 54px;
+            max-width: 600px;
           }
           .home-caption4 {
-            color: var(--dl-color-gray-white);
+            color: rgb(34, 34, 35);
             font-size: 18px;
-            line-height: 27px;
+            line-height: 30px;
           }
           .home-button2 {
             gap: var(--dl-space-space-twounits);
@@ -1351,7 +1140,7 @@ window.addEventListener("load", function() {
           }
           .home-link15 {
             text-decoration: none;
-            background-color: #f47421;
+            background-color: var(--dl-color-primary-blue);
           }
           .home-text05 {
             color: rgb(255, 255, 255);
@@ -1359,14 +1148,17 @@ window.addEventListener("load", function() {
           .home-features {
             width: 100%;
             display: flex;
-            padding: var(--dl-space-space-threeunits);
-            max-width: var(--dl-size-size-maxwidth);
+            padding: var(--dl-space-space-fourunits)
+              var(--dl-space-space-threeunits);
             flex-direction: column;
           }
           .home-text06 {
-            font-size: 28px;
+            font-size: 36px;
             font-family: Tahoma;
+            font-weight: 700;
+            line-height: 54px;
             margin-bottom: var(--dl-space-space-oneandhalfunits);
+            color: var(--dl-color-primary-yellow);
           }
           .home-container03 {
             width: 100%;
@@ -1382,11 +1174,6 @@ window.addEventListener("load", function() {
             align-items: flex-start;
             margin-bottom: var(--dl-space-space-threeunits);
             flex-direction: column;
-          }
-          .home-text07 {
-            font-size: 28px;
-            font-family: Tahoma;
-            margin-bottom: var(--dl-space-space-oneandhalfunits);
           }
           .home-container04 {
             width: 100%;
@@ -1405,20 +1192,15 @@ window.addEventListener("load", function() {
             gap: var(--dl-space-space-twounits);
             width: 100%;
             display: flex;
-            max-width: var(--dl-size-size-maxwidth);
             align-items: center;
-            padding-top: var(--dl-space-space-fourunits);
-            padding-left: var(--dl-space-space-fiveunits);
-            padding-right: var(--dl-space-space-fiveunits);
+            justify-content: center;
             flex-direction: column;
-            padding-bottom: var(--dl-space-space-fourunits);
+            padding: var(--dl-space-space-fiveunits)
+              var(--dl-space-space-threeunits);
           }
           .home-steps1 {
             width: 100%;
             display: flex;
-            padding: var(--dl-space-space-threeunits);
-            max-width: var(--dl-size-size-maxwidth);
-            align-self: stretch;
             align-items: center;
             flex-direction: column;
           }
@@ -1426,6 +1208,8 @@ window.addEventListener("load", function() {
             color: var(--dl-color-gray-black);
             font-size: 25px;
             font-family: Tahoma;
+            font-weight: 700;
+            line-height: 30px;
           }
           .home-container05 {
             flex: 0 0 auto;
@@ -1510,6 +1294,7 @@ window.addEventListener("load", function() {
             text-align: center;
             font-family: Tahoma;
             font-weight: 700;
+            line-height: 24px;
             margin-bottom: var(--dl-space-space-unit);
           }
           .home-step1 {
@@ -1579,14 +1364,6 @@ window.addEventListener("load", function() {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-unit);
           }
-          .home-text10 {
-            font-size: 18px;
-            font-style: normal;
-            text-align: center;
-            font-family: Tahoma;
-            font-weight: 700;
-            margin-bottom: var(--dl-space-space-unit);
-          }
           .home-step2 {
             width: 300px;
             display: flex;
@@ -1653,14 +1430,6 @@ window.addEventListener("load", function() {
             padding-right: var(--dl-space-space-twounits);
             flex-direction: column;
             padding-bottom: var(--dl-space-space-unit);
-          }
-          .home-text11 {
-            font-size: 18px;
-            font-style: normal;
-            text-align: center;
-            font-family: Tahoma;
-            font-weight: 700;
-            margin-bottom: var(--dl-space-space-unit);
           }
           .home-step3 {
             width: 300px;
@@ -1729,32 +1498,25 @@ window.addEventListener("load", function() {
             flex-direction: column;
             padding-bottom: var(--dl-space-space-unit);
           }
-          .home-text12 {
-            font-size: 18px;
-            font-style: normal;
-            text-align: center;
-            font-family: Tahoma;
-            font-weight: 700;
-            margin-bottom: var(--dl-space-space-unit);
-          }
           .home-text13 {
+            font-family: Tahoma;
+            font-size: 16px;
+            line-height: 24px;
+            font-weight: 400;
             text-align: center;
           }
           .home-donation-use {
             gap: var(--dl-space-space-fiveunits);
             width: 100%;
             display: flex;
-            max-width: var(--dl-size-size-maxwidth);
             align-items: flex-start;
-            padding-top: var(--dl-space-space-threeunits);
-            padding-left: var(--dl-space-space-fiveunits);
-            padding-right: var(--dl-space-space-fiveunits);
             flex-direction: row;
-            padding-bottom: var(--dl-space-space-threeunits);
-            justify-content: flex-start;
+            justify-content: space-between;
+            padding: var(--dl-space-space-twounits)
+              var(--dl-space-space-threeunits);
           }
           .home-container18 {
-            width: 557px;
+            width: 680px;
             height: auto;
             display: flex;
             align-items: flex-start;
@@ -1765,22 +1527,23 @@ window.addEventListener("load", function() {
             flex: 1;
             width: 100%;
             display: flex;
-            max-width: 560px;
             align-items: flex-start;
             flex-direction: column;
           }
           .home-heading5 {
-            color: rgb(34, 34, 35);
-            font-size: 24px;
+            color: var(--dl-color-primary-blue);
+            font-size: 36px;
             font-style: normal;
             font-family: Tahoma;
             font-weight: 700;
-            line-height: 52px;
+            line-height: 54px;
           }
           .home-caption5 {
             color: rgb(34, 34, 35);
             font-size: 18px;
-            line-height: 27px;
+            font-family: Tahoma;
+            font-weight: 400;
+            line-height: 30px;
           }
           .home-container19 {
             flex: 0 0 auto;
@@ -1803,7 +1566,7 @@ window.addEventListener("load", function() {
             object-fit: cover;
           }
           .home-accordion {
-            flex: 1;
+            flex: 0.9;
             display: flex;
             position: relative;
             align-items: center;
@@ -1819,95 +1582,18 @@ window.addEventListener("load", function() {
           }
           .home-text14 {
             color: rgb(34, 34, 35);
-            font-size: 19px;
+            font-size: 18px;
             font-style: normal;
             font-family: Tahoma;
             font-weight: 700;
+            line-height: 22px;
             padding-right: var(--dl-space-space-unit);
           }
           .home-text15 {
             color: rgb(34, 34, 35);
             font-size: 18px;
-            line-height: 27px;
-          }
-          .home-header07 {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .home-text16 {
-            color: rgb(34, 34, 35);
-            font-size: 19px;
-            font-style: normal;
             font-family: Tahoma;
-            font-weight: 700;
-            padding-right: var(--dl-space-space-unit);
-          }
-          .home-text17 {
-            color: rgb(34, 34, 35);
-            font-size: 18px;
-            line-height: 27px;
-          }
-          .home-header08 {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .home-text18 {
-            color: rgb(34, 34, 35);
-            font-size: 19px;
-            font-style: normal;
-            font-family: Tahoma;
-            font-weight: 700;
-            padding-right: var(--dl-space-space-unit);
-          }
-          .home-text19 {
-            color: rgb(34, 34, 35);
-            font-size: 18px;
-            line-height: 27px;
-          }
-          .home-header09 {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .home-text20 {
-            color: rgb(34, 34, 35);
-            font-size: 19px;
-            font-style: normal;
-            font-family: Tahoma;
-            font-weight: 700;
-            padding-right: var(--dl-space-space-unit);
-          }
-          .home-text21 {
-            color: rgb(34, 34, 35);
-            font-size: 18px;
-            line-height: 27px;
-          }
-          .home-header10 {
-            width: 100%;
-            display: flex;
-            align-items: center;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .home-text22 {
-            color: rgb(34, 34, 35);
-            font-size: 19px;
-            font-style: normal;
-            font-family: Tahoma;
-            font-weight: 700;
-            padding-right: var(--dl-space-space-unit);
-          }
-          .home-text23 {
-            color: rgb(34, 34, 35);
-            font-size: 18px;
+            font-weight: 400;
             line-height: 27px;
           }
           .home-updates {
@@ -1921,16 +1607,13 @@ window.addEventListener("load", function() {
           }
           .home-footer {
             width: 100%;
-            height: 687px;
             display: flex;
             align-items: center;
-            padding-top: 120px;
-            padding-left: var(--dl-space-space-fourunits);
-            padding-right: var(--dl-space-space-fourunits);
             flex-direction: column;
-            padding-bottom: var(--dl-space-space-threeunits);
             justify-content: center;
-            background-color: #e9a837;
+            padding: var(--dl-space-space-fourunits)
+              var(--dl-space-space-threeunits);
+            background-color: var(--dl-color-primary-yellow);
           }
           .home-top {
             gap: var(--dl-space-space-threeunits);
@@ -1938,7 +1621,7 @@ window.addEventListener("load", function() {
             display: flex;
             max-width: 640px;
             align-items: center;
-            border-color: #222223;
+            border-color: rgba(0, 0, 0, 0.1);
             border-style: dashed;
             flex-direction: column;
             padding-bottom: var(--dl-space-space-oneandhalfunits);
@@ -1955,18 +1638,14 @@ window.addEventListener("load", function() {
           .home-link16 {
             text-decoration: none;
           }
-          .home-link17 {
-            text-decoration: none;
-          }
           .home-middle {
-            gap: var(--dl-space-space-threeunits);
+            gap: var(--dl-space-space-oneandhalfunits);
             width: 100%;
             display: flex;
             max-width: 400px;
             align-items: center;
-            padding-top: var(--dl-space-space-threeunits);
             flex-direction: column;
-            padding-bottom: var(--dl-space-space-threeunits);
+            padding: var(--dl-space-space-oneandhalfunits) 0;
             justify-content: center;
           }
           .home-text24 {
@@ -1974,20 +1653,24 @@ window.addEventListener("load", function() {
             font-size: 24px;
             font-style: normal;
             text-align: center;
-            font-family: Lora;
-            font-weight: 500;
-            line-height: 36px;
+            font-family: Tahoma;
+            font-weight: 400;
+            line-height: 24px;
           }
           .home-text26 {
-            font-size: 18px;
+            font-family: Tahoma;
+            font-style: normal;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
           }
           .home-text27 {
             width: 100%;
             font-size: 24px;
             font-style: normal;
             text-align: center;
-            font-family: Lora;
-            font-weight: 500;
+            font-family: Tahoma;
+            font-weight: 400;
             line-height: 36px;
           }
           .home-bottom {
@@ -1997,7 +1680,7 @@ window.addEventListener("load", function() {
             max-width: 640px;
             align-items: center;
             padding-top: var(--dl-space-space-threeunits);
-            border-color: #222223;
+            border-color: rgba(0, 0, 0, 0.1);
             border-style: dashed;
             flex-direction: column;
             justify-content: center;
@@ -2006,6 +1689,7 @@ window.addEventListener("load", function() {
           .home-copyright {
             color: var(--dl-color-gray-black);
             width: 100%;
+            font-family: Tahoma;
             font-size: 12px;
             font-style: normal;
             text-align: center;
@@ -2013,18 +1697,50 @@ window.addEventListener("load", function() {
             line-height: 18px;
             text-decoration: none;
           }
+          .home-form-container {
+            padding: var(--dl-space-space-threeunits) 0;
+            max-width: 640px;
+            width: 100%;
+            border-color: rgba(0, 0, 0, 0.1);
+            border-style: dashed;
+            border-top-width: 1px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          .home-form {
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            gap: var(--dl-space-space-halfunit);
+          }
+          .home-input {
+            width: 100%;
+            background-color: transparent;
+            border-color: #222223;
+            border-bottom-width: 1px;
+            padding: var(--dl-space-space-halfunit);
+            outline: none;
+          }
+          .home-input::placeholder {
+            color: rgb(34, 34, 35);
+            font-family: Tahoma;
+            font-size: 16px;
+            line-height: 22px;
+          }
+          .home-input:focus {
+            background-color: rgba(0, 0, 0, 0.1);
+          }
+          .form-button {
+            background-color: var(--dl-color-primary-blue);
+            margin-top: var(--dl-space-space-oneandhalfunits);
+          }
           @media (max-width: 991px) {
             .home-main {
               gap: var(--dl-space-space-threeunits);
               padding-left: var(--dl-space-space-threeunits);
             }
-            .home-navbar-interactive {
-              gap: 0;
-              justify-content: space-between;
-            }
-            .home-links {
-              display: none;
-            }
+
             .home-heading {
               font-size: 36px;
               line-height: 46px;
@@ -2036,19 +1752,7 @@ window.addEventListener("load", function() {
             .home-buttons {
               flex-direction: column;
             }
-            .home-link14 {
-              display: none;
-            }
             .home-details {
-              gap: var(--dl-space-space-oneandhalfunits);
-            }
-            .home-category {
-              gap: var(--dl-space-space-oneandhalfunits);
-            }
-            .home-category1 {
-              gap: var(--dl-space-space-oneandhalfunits);
-            }
-            .home-category2 {
               gap: var(--dl-space-space-oneandhalfunits);
             }
             .home-mission {
@@ -2111,12 +1815,7 @@ window.addEventListener("load", function() {
               padding-left: var(--dl-space-space-oneandhalfunits);
               padding-right: var(--dl-space-space-oneandhalfunits);
             }
-            .home-navbar-interactive {
-              gap: 0;
-              padding-left: var(--dl-space-space-twounits);
-              padding-right: var(--dl-space-space-twounits);
-              justify-content: space-between;
-            }
+
             .home-link13 {
               display: none;
             }
@@ -2139,21 +1838,7 @@ window.addEventListener("load", function() {
               gap: var(--dl-space-space-unit);
               flex-direction: column;
             }
-            .home-text02 {
-              max-width: 100%;
-            }
-            .home-category1 {
-              gap: var(--dl-space-space-unit);
-              flex-direction: column;
-            }
-            .home-text03 {
-              max-width: 100%;
-            }
-            .home-category2 {
-              gap: var(--dl-space-space-unit);
-              flex-direction: column;
-            }
-            .home-text04 {
+            .home-text {
               max-width: 100%;
             }
             .home-mission {
@@ -2176,10 +1861,6 @@ window.addEventListener("load", function() {
               width: 100%;
               padding-top: var(--dl-space-space-oneandhalfunits);
               justify-content: flex-end;
-            }
-            .home-image05 {
-              bottom: var(--dl-space-space-halfunit);
-              position: static;
             }
             .home-petitions {
               padding-left: var(--dl-space-space-oneandhalfunits);
@@ -2289,12 +1970,6 @@ window.addEventListener("load", function() {
               padding-bottom: var(--dl-space-space-twounits);
               justify-content: space-between;
             }
-            .home-text10 {
-              margin-top: var(--dl-space-space-twounits);
-              margin-left: 0px;
-              margin-right: 0px;
-              margin-bottom: var(--dl-space-space-unit);
-            }
             .home-step2 {
               width: 100%;
               height: auto;
@@ -2329,12 +2004,6 @@ window.addEventListener("load", function() {
               flex-direction: column;
               padding-bottom: var(--dl-space-space-twounits);
               justify-content: space-between;
-            }
-            .home-text11 {
-              margin-top: var(--dl-space-space-twounits);
-              margin-left: 0px;
-              margin-right: 0px;
-              margin-bottom: var(--dl-space-space-unit);
             }
             .home-step3 {
               width: 100%;
@@ -2371,12 +2040,6 @@ window.addEventListener("load", function() {
               padding-bottom: var(--dl-space-space-twounits);
               justify-content: space-between;
             }
-            .home-text12 {
-              margin-top: var(--dl-space-space-twounits);
-              margin-left: 0px;
-              margin-right: 0px;
-              margin-bottom: var(--dl-space-space-unit);
-            }
             .home-donation-use {
               gap: var(--dl-space-space-threeunits);
               padding-left: var(--dl-space-space-oneandhalfunits);
@@ -2398,28 +2061,10 @@ window.addEventListener("load", function() {
             .home-content {
               gap: var(--dl-space-space-threeunits);
             }
-            .home-navbar-interactive {
-              padding: var(--dl-space-space-halfunit);
-            }
-            .home-desktop-menu {
-              display: none;
-            }
-            .home-burger-menu {
-              display: flex;
-            }
-            .home-mobile-menu {
-              padding: 16px;
-            }
             .home-details {
               align-self: center;
             }
             .home-category {
-              align-self: center;
-            }
-            .home-category1 {
-              align-self: center;
-            }
-            .home-category2 {
               align-self: center;
             }
             .home-container02 {
@@ -2463,14 +2108,7 @@ window.addEventListener("load", function() {
             .home-highlight1 {
               gap: var(--dl-space-space-unit);
             }
-            .home-title2 {
-              font-size: 30px;
-              line-height: 40px;
-            }
             .home-image04 {
-              width: 200px;
-            }
-            .home-image05 {
               width: 200px;
             }
             .home-petitions {
@@ -2482,14 +2120,6 @@ window.addEventListener("load", function() {
               line-height: 40px;
             }
             .home-caption2 {
-              color: rgb(34, 34, 35);
-              line-height: 24px;
-            }
-            .home-heading3 {
-              font-size: 30px;
-              line-height: 40px;
-            }
-            .home-caption3 {
               color: rgb(34, 34, 35);
               line-height: 24px;
             }
@@ -2546,29 +2176,17 @@ window.addEventListener("load", function() {
               padding-right: 0px;
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text10 {
-              margin-left: 0px;
-              margin-right: var(--dl-space-space-twounits);
-            }
             .home-container14 {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: 0px;
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text11 {
-              margin-left: 0px;
-              margin-right: var(--dl-space-space-twounits);
-            }
             .home-container17 {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: 0px;
               padding-bottom: var(--dl-space-space-twounits);
-            }
-            .home-text12 {
-              margin-left: 0px;
-              margin-right: var(--dl-space-space-twounits);
             }
             .home-donation-use {
               padding-top: var(--dl-space-space-threeunits);
@@ -2597,38 +2215,14 @@ window.addEventListener("load", function() {
             .home-element1 {
               gap: var(--dl-space-space-halfunit);
             }
-            .home-text16 {
-              font-size: 16px;
-            }
-            .home-text17 {
-              line-height: 24px;
-            }
             .home-element2 {
               gap: var(--dl-space-space-halfunit);
-            }
-            .home-text18 {
-              font-size: 16px;
-            }
-            .home-text19 {
-              line-height: 24px;
             }
             .home-element3 {
               gap: var(--dl-space-space-halfunit);
             }
-            .home-text20 {
-              font-size: 16px;
-            }
-            .home-text21 {
-              line-height: 24px;
-            }
             .home-element4 {
               gap: var(--dl-space-space-halfunit);
-            }
-            .home-text22 {
-              font-size: 16px;
-            }
-            .home-text23 {
-              line-height: 24px;
             }
             .home-footer {
               padding-top: var(--dl-space-space-threeunits);
@@ -2655,7 +2249,7 @@ window.addEventListener("load", function() {
         `}
       </style>
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
