@@ -121,7 +121,7 @@ const Home = (props) => {
             <div className="home-main1">
               <span className="home-title">Acerca de la fundación</span>
               <div className="home-header01">
-                <h2  className="home-heading1">
+                <h2 className="home-heading1">
                   Empoderando habilidades, transformando vidas
                 </h2>
                 <p className="home-caption1">
@@ -403,7 +403,7 @@ const Home = (props) => {
         <section className="home-donation-use" id="como-ayudar">
           <div className="home-container18">
             <div className="home-header05">
-              <h2  className="home-heading5">
+              <h2 className="home-heading5">
                 ¿Cómo las empresas pueden colaborar?
               </h2>
               <p className="home-caption5">
@@ -649,26 +649,34 @@ const Home = (props) => {
             </span>
           </div>
           <div className="home-form-container">
-            <form>
+            <form
+              action="mailto:johannalifetransformer@gmail.com?subject=Comentarios"
+              method="post"
+              enctype="text/plain"
+            >
               <div className="home-form">
                 <input
+                  name="Nombre y apellido"
                   type="text"
                   placeholder="Nombre y apellido"
                   required
                   className="home-input"
                 />
                 <input
+                  name="Email"
                   type="email"
                   placeholder="Correo electrónico"
                   required
                   className="home-input"
                 />
                 <input
+                  name="Empresa"
                   type="text"
                   placeholder="Empresa (si aplica)"
                   className="home-input"
                 />
                 <input
+                  name="Teléfono"
                   type="text"
                   pattern="\d*"
                   inputMode="numeric"
@@ -676,6 +684,7 @@ const Home = (props) => {
                   className="home-input"
                 />
                 <textarea
+                  name="Comentario"
                   type="text"
                   placeholder="Comentario"
                   required
@@ -1010,12 +1019,12 @@ window.addEventListener("load", function() {
             width: 554px;
             object-fit: cover;
           }
-          .image-container01{
+          .image-container01 {
             width: 100%;
             display: flex;
             justify-content: flex-start;
           }
-          .image-container02{
+          .image-container02 {
             width: 100%;
             display: flex;
             justify-content: flex-end;
